@@ -1,1 +1,35 @@
 
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="465"
+     height="48"
+     viewBox="0 0 465 48">
+
+  <rect width="465"
+        height="48"
+        fill="#0d0d0d"/>
+
+  <line x1="0"
+        y1="0"
+        x2="465"
+        y2="0"
+        stroke="#2d2d2d"/>
+
+  <text x="232.5"
+        y="20"
+        text-anchor="middle"
+        font-family="Cascadia Code, Consolas, Courier New, monospace"
+        font-size="14"
+        font-weight="bold"
+        fill="#00ff2a">
+    » Email
+  </text>
+
+  <text x="232.5"
+        y="37"
+        text-anchor="middle"
+        font-family="Cascadia Code, Consolas, Courier New, monospace"
+        font-size="11"
+        fill="#ffffff">
+    gaimalul1515@gmail.com
+  </text>
+</svg>
