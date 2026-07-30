@@ -32,7 +32,7 @@ jobs:
 
       - name: Make ghosts white
         run: |
-          pip install pillow
+          python -m pip install pillow
 
           python <<'PY'
           import base64
@@ -41,50 +41,84 @@ jobs:
           from pathlib import Path
           from PIL import Image
 
-          files = [
-              Path("dist/pacman-contribution-graph.svg"),
-              Path("dist/pacman-contribution-graph-dark.svg"),
-          ]
+          files = list(Path("dist").glob("pacman-contribution-graph*.svg"))
 
-          ghost_pattern = re.compile(
-              r'(<symbol id="ghost-(?:blinky|inky|pinky|clyde)-[^"]+".*?'
-              r'<image href="data:image/png;base64,)([^"]+)(".*?</symbol>)',
-              re.DOTALL,
+          if not files:
+              raise RuntimeError("No Pac-Man SVG files found in dist")
+
+          ghost_names = ("blinky", "inky", "pinky", "clyde")
+          total_updated = 0
+
+          symbol_pattern = re.compile(
+              r'<symbol id="ghost-('
+              + "|".join(ghost_names)
+              + r')-[^"]+"[\s\S]*?</symbol>'
           )
 
-          def make_white(match):
-              prefix, encoded, suffix = match.groups()
+          image_pattern = re.compile(
+              r'data:image/png;base64,([^"]+)'
+          )
 
-              image_data = base64.b64decode(encoded)
-              image = Image.open(io.BytesIO(image_data)).convert("RGBA")
+          def process_symbol(symbol_match):
+              global total_updated
 
-              pixels = image.load()
+              symbol = symbol_match.group(0)
 
-              for y in range(image.height):
-                  for x in range(image.width):
-                      r, g, b, a = pixels[x, y]
+              def process_image(image_match):
+                  global total_updated
 
-                      if a == 0:
-                          continue
+                  encoded = image_match.group(1)
+                  raw = base64.b64decode(encoded)
 
-                      # Change colored ghost body to white.
-                      # Keep black, gray and white eye details unchanged.
-                      saturation = max(r, g, b) - min(r, g, b)
+                  image = Image.open(io.BytesIO(raw)).convert("RGBA")
+                  pixels = image.load()
 
-                      if saturation > 18:
-                          pixels[x, y] = (255, 255, 255, a)
+                  changed_pixels = 0
 
-              output = io.BytesIO()
-              image.save(output, format="PNG")
+                  for y in range(image.height):
+                      for x in range(image.width):
+                          r, g, b, a = pixels[x, y]
 
-              new_encoded = base64.b64encode(output.getvalue()).decode("ascii")
-              return prefix + new_encoded + suffix
+                          if a == 0:
+                              continue
+
+                          maximum = max(r, g, b)
+                          minimum = min(r, g, b)
+                          saturation = maximum - minimum
+
+                          # צובע רק פיקסלים צבעוניים של גוף הרוח.
+                          # שחור, אפור ולבן של העיניים נשארים ללא שינוי.
+                          if saturation >= 15 and maximum >= 45:
+                              pixels[x, y] = (255, 255, 255, a)
+                              changed_pixels += 1
+
+                  if changed_pixels == 0:
+                      return image_match.group(0)
+
+                  output = io.BytesIO()
+                  image.save(output, format="PNG")
+
+                  new_encoded = base64.b64encode(
+                      output.getvalue()
+                  ).decode("ascii")
+
+                  total_updated += 1
+
+                  return "data:image/png;base64," + new_encoded
+
+              return image_pattern.sub(process_image, symbol)
 
           for file in files:
-              text = file.read_text(encoding="utf-8")
-              updated, count = ghost_pattern.subn(make_white, text)
-              file.write_text(updated, encoding="utf-8")
-              print(f"{file}: updated {count} ghost images")
+              content = file.read_text(encoding="utf-8")
+              updated_content = symbol_pattern.sub(process_symbol, content)
+              file.write_text(updated_content, encoding="utf-8")
+
+              print(f"Processed: {file}")
+
+          print(f"Updated ghost images: {total_updated}")
+
+          if total_updated == 0:
+              raise RuntimeError("Ghost images were found, but none were changed")
           PY
 
       - name: Push generated files
