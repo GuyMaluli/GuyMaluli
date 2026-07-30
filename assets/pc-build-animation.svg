@@ -54,7 +54,7 @@
   <!-- Motherboard -->
   <g opacity="0">
     <rect x="350" y="100" width="145" height="135" rx="7"
-          fill="#162b1a" stroke="#e6edf3" stroke-width="2"/>
+          fill="#161b22" stroke="#e6edf3" stroke-width="2"/>
 
     <path d="M365 115H480 M365 130H430 M365 215H475"
           stroke="#e6edf3" opacity="0.4"/>
