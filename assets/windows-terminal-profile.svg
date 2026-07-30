@@ -234,13 +234,13 @@
   <g font-family="Cascadia Code, Consolas, Courier New, monospace"
      text-anchor="middle">
     <text x="298" y="537"
-          font-size="18"
+          font-size="16"
           font-weight="bold"
           fill="#00ff2a">
       » Email
     </text>
     <text x="298" y="553"
-          font-size="15"
+          font-size="14"
           fill="#ffffff">
       gaimalul1515@gmail.com
     </text>
@@ -250,13 +250,13 @@
   <g font-family="Cascadia Code, Consolas, Courier New, monospace"
      text-anchor="middle">
     <text x="803" y="537"
-          font-size="18"
+          font-size="16"
           font-weight="bold"
           fill="#00ff2a">
       » GitHub
     </text>
     <text x="803" y="553"
-          font-size="15"
+          font-size="14"
           fill="#ffffff">
       github.com/GuyMaluli
     </text>
