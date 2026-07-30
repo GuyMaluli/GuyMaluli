@@ -1,3 +1,209 @@
-<p align="center">
-  <img src="./assets/pc-build-animation.svg" alt="Animated PC Build" width="850">
-</p>
+<svg width="900" height="320" viewBox="0 0 900 320"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="900" height="320" rx="18" fill="#0d1117"/>
+
+  <defs>
+    <filter id="greenGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Grid background -->
+  <g opacity="0.12" stroke="#39ff14" stroke-width="1">
+    <path d="M0 40H900 M0 80H900 M0 120H900 M0 160H900 M0 200H900 M0 240H900 M0 280H900"/>
+    <path d="M40 0V320 M80 0V320 M120 0V320 M160 0V320 M200 0V320
+             M240 0V320 M280 0V320 M320 0V320 M360 0V320 M400 0V320
+             M440 0V320 M480 0V320 M520 0V320 M560 0V320 M600 0V320
+             M640 0V320 M680 0V320 M720 0V320 M760 0V320 M800 0V320
+             M840 0V320 M880 0V320"/>
+  </g>
+
+  <!-- Title -->
+  <text x="450" y="38"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="20"
+        fill="#39ff14">
+    INITIALIZING PC BUILD...
+  </text>
+
+  <!-- PC case -->
+  <g>
+    <rect x="315" y="65" width="270" height="210" rx="12"
+          fill="#161b22" stroke="#8b949e" stroke-width="3"/>
+
+    <rect x="330" y="80" width="190" height="180" rx="8"
+          fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+
+    <rect x="535" y="82" width="35" height="175" rx="5"
+          fill="#21262d"/>
+
+    <circle cx="552" cy="103" r="4" fill="#39ff14">
+      <animate attributeName="opacity"
+               values="0;0;1;0.4;1"
+               dur="7s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Motherboard -->
+  <g opacity="0">
+    <rect x="350" y="100" width="145" height="135" rx="7"
+          fill="#162b1a" stroke="#39ff14" stroke-width="2"/>
+
+    <path d="M365 115H480 M365 130H430 M365 215H475"
+          stroke="#39ff14" opacity="0.4"/>
+
+    <animate attributeName="opacity"
+             values="0;0;1;1;1;0"
+             keyTimes="0;0.08;0.16;0.82;0.94;1"
+             dur="7s"
+             repeatCount="indefinite"/>
+
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="-220 0;-220 0;0 0;0 0;0 0;-220 0"
+                      keyTimes="0;0.08;0.16;0.82;0.94;1"
+                      dur="7s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <!-- CPU -->
+  <g opacity="0">
+    <rect x="397" y="135" width="48" height="48" rx="5"
+          fill="#d0d7de" stroke="#ffffff" stroke-width="2"/>
+
+    <rect x="406" y="144" width="30" height="30" rx="3"
+          fill="#6e7681"/>
+
+    <text x="421" y="164"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="8"
+          fill="#ffffff">
+      CPU
+    </text>
+
+    <animate attributeName="opacity"
+             values="0;0;1;1;1;0"
+             keyTimes="0;0.2;0.28;0.82;0.94;1"
+             dur="7s"
+             repeatCount="indefinite"/>
+
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="0 -150;0 -150;0 0;0 0;0 0;0 -150"
+                      keyTimes="0;0.2;0.28;0.82;0.94;1"
+                      dur="7s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <!-- RAM -->
+  <g opacity="0">
+    <rect x="458" y="115" width="10" height="75" rx="2"
+          fill="#39ff14"/>
+
+    <rect x="474" y="115" width="10" height="75" rx="2"
+          fill="#39ff14"/>
+
+    <animate attributeName="opacity"
+             values="0;0;1;1;1;0"
+             keyTimes="0;0.32;0.4;0.82;0.94;1"
+             dur="7s"
+             repeatCount="indefinite"/>
+
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="0 -150;0 -150;0 0;0 0;0 0;0 -150"
+                      keyTimes="0;0.32;0.4;0.82;0.94;1"
+                      dur="7s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <!-- GPU -->
+  <g opacity="0">
+    <rect x="365" y="195" width="115" height="28" rx="5"
+          fill="#21262d" stroke="#39ff14" stroke-width="2"/>
+
+    <circle cx="395" cy="209" r="10"
+            fill="none" stroke="#8b949e" stroke-width="2"/>
+
+    <circle cx="450" cy="209" r="10"
+            fill="none" stroke="#8b949e" stroke-width="2"/>
+
+    <animate attributeName="opacity"
+             values="0;0;1;1;1;0"
+             keyTimes="0;0.44;0.54;0.82;0.94;1"
+             dur="7s"
+             repeatCount="indefinite"/>
+
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="280 0;280 0;0 0;0 0;0 0;280 0"
+                      keyTimes="0;0.44;0.54;0.82;0.94;1"
+                      dur="7s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Front fans -->
+  <g opacity="0">
+    <g transform="translate(552 145)">
+      <circle r="24" fill="none" stroke="#39ff14" stroke-width="3"/>
+
+      <path d="M0-18L5-4L18 0L5 4L0 18L-5 4L-18 0L-5-4Z"
+            fill="#39ff14" opacity="0.7">
+
+        <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="0"
+                          to="360"
+                          dur="1.2s"
+                          repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g transform="translate(552 210)">
+      <circle r="24" fill="none" stroke="#39ff14" stroke-width="3"/>
+
+      <path d="M0-18L5-4L18 0L5 4L0 18L-5 4L-18 0L-5-4Z"
+            fill="#39ff14" opacity="0.7">
+
+        <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="360"
+                          to="0"
+                          dur="1.2s"
+                          repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <animate attributeName="opacity"
+             values="0;0;1;1;1;0"
+             keyTimes="0;0.58;0.68;0.82;0.94;1"
+             dur="7s"
+             repeatCount="indefinite"/>
+  </g>
+
+  <!-- Status -->
+  <g filter="url(#greenGlow)">
+    <text x="450" y="305"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="18"
+          fill="#39ff14"
+          opacity="0">
+      BUILD COMPLETE // SYSTEM ONLINE
+
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.68;0.76;0.92;1"
+               dur="7s"
+               repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
