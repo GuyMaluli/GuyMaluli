@@ -7,6 +7,12 @@
   alt="Typing SVG"
 />
 
+<p align="center">
+  <img src="./assets/pc-build-animation.svg"
+       alt="Animated PC Build"
+       width="900">
+</p>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/guymalul/guymalul/output/pacman-contribution-graph-dark.svg" alt="Pacman contribution graph">
