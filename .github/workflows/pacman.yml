@@ -25,6 +25,68 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Make ghosts white
+        run: |
+          pip install pillow
+
+          python <<'PY'
+          import base64
+          import io
+          import re
+          from pathlib import Path
+          from PIL import Image
+
+          files = [
+              Path("dist/pacman-contribution-graph.svg"),
+              Path("dist/pacman-contribution-graph-dark.svg"),
+          ]
+
+          ghost_pattern = re.compile(
+              r'(<symbol id="ghost-(?:blinky|inky|pinky|clyde)-[^"]+".*?'
+              r'<image href="data:image/png;base64,)([^"]+)(".*?</symbol>)',
+              re.DOTALL,
+          )
+
+          def make_white(match):
+              prefix, encoded, suffix = match.groups()
+
+              image_data = base64.b64decode(encoded)
+              image = Image.open(io.BytesIO(image_data)).convert("RGBA")
+
+              pixels = image.load()
+
+              for y in range(image.height):
+                  for x in range(image.width):
+                      r, g, b, a = pixels[x, y]
+
+                      if a == 0:
+                          continue
+
+                      # Change colored ghost body to white.
+                      # Keep black, gray and white eye details unchanged.
+                      saturation = max(r, g, b) - min(r, g, b)
+
+                      if saturation > 18:
+                          pixels[x, y] = (255, 255, 255, a)
+
+              output = io.BytesIO()
+              image.save(output, format="PNG")
+
+              new_encoded = base64.b64encode(output.getvalue()).decode("ascii")
+              return prefix + new_encoded + suffix
+
+          for file in files:
+              text = file.read_text(encoding="utf-8")
+              updated, count = ghost_pattern.subn(make_white, text)
+              file.write_text(updated, encoding="utf-8")
+              print(f"{file}: updated {count} ghost images")
+          PY
+
       - name: Push generated files
         uses: crazy-max/ghaction-github-pages@v4
         with:
