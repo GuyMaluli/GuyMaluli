@@ -1,1 +1,1944 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1100" height="1210" viewBox="0 0 1100 1210" role="img" aria-label="Guy Maluli animated Windows Terminal profile">
+  <ns0:defs>
+    <ns0:linearGradient id="outer_title" x1="0" y1="0" x2="1" y2="0">
+      <ns0:stop offset="0%" stop-color="#202020"/>
+      <ns0:stop offset="100%" stop-color="#171717"/>
+    </ns0:linearGradient>
+    <ns0:filter id="outer_shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <ns0:feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.55"/>
+    </ns0:filter>
+    <ns0:clipPath id="outer_clip">
+      <ns0:rect x="45" y="105" width="1010" height="1045"/>
+    </ns0:clipPath>
+  </ns0:defs>
+  <ns0:rect width="1100" height="1210" fill="#0d1117"/>
+  <ns0:g filter="url(#outer_shadow)">
+    <ns0:rect x="45" y="45" width="1010" height="1105" rx="16" fill="#0b0b0b" stroke="#444" stroke-width="1.5"/>
+    <ns0:path d="M61 45 H1039 A16 16 0 0 1 1055 61 V105 H45 V61 A16 16 0 0 1 61 45Z" fill="url(#outer_title)"/>
+    <ns0:line x1="45" y1="105" x2="1055" y2="105" stroke="#363636"/>
+    <ns0:rect x="68" y="66" width="22" height="22" rx="5" fill="#0c0c0c" stroke="#8a8a8a"/>
+    <ns0:g font-family="Segoe UI, Arial, sans-serif">
+      <ns0:text x="79" y="82" font-size="14" fill="#f5f5f5" text-anchor="middle">&gt;_</ns0:text>
+      <ns0:text x="106" y="81" font-size="14" fill="#e8e8e8">Windows Terminal</ns0:text>
+      <ns0:rect x="316" y="58" width="260" height="38" rx="9" fill="#111" stroke="#333"/>
+      <ns0:text x="337" y="82" font-size="13" fill="#d8d8d8">PowerShell</ns0:text>
+      <ns0:text x="550" y="82" font-size="18" fill="#8d8d8d" text-anchor="end">×</ns0:text>
+      <ns0:text x="596" y="82" font-size="20" fill="#a5a5a5">+</ns0:text>
+    </ns0:g>
+    <ns0:g fill="none" stroke="#d0d0d0" stroke-width="1.5" stroke-linecap="round">
+      <ns0:line x1="931" y1="77" x2="945" y2="77"/>
+      <ns0:rect x="976" y="70" width="14" height="14"/>
+      <ns0:line x1="1020" y1="70" x2="1034" y2="84"/>
+      <ns0:line x1="1034" y1="70" x2="1020" y2="84"/>
+    </ns0:g>
+  </ns0:g>
+  <ns0:g clip-path="url(#outer_clip)" font-family="Cascadia Code, Consolas, Courier New, monospace">
+    <ns0:text x="75" y="137" font-size="13" fill="#bdbdbd">Microsoft Windows [Version 11.0.26100]</ns0:text>
+    <ns0:text x="75" y="159" font-size="13" fill="#8e8e8e">(c) Microsoft Corporation. All rights reserved.</ns0:text>
+    <ns0:text x="75" y="198" font-size="14" fill="#f2f2f2">PS C:\Users\Guy&gt;</ns0:text>
+    <ns0:text x="224" y="198" font-size="14" fill="#00ff2a">whoami</ns0:text>
+    <ns0:text x="75" y="225" font-size="17" fill="#ffffff" font-weight="bold">Guy Malul</ns0:text>
+    <ns0:text x="75" y="264" font-size="14" fill="#f2f2f2">PS C:\Users\Guy&gt;</ns0:text>
+    <ns0:text x="224" y="264" font-size="14" fill="#00ff2a">about.exe</ns0:text>
+    <ns0:text x="75" y="291" font-size="15" fill="#ffffff">Electrical &amp; Electronics Engineering Student</ns0:text>
+    <ns0:text x="75" y="316" font-size="14" fill="#cfcfcf">PC Building Enthusiast · Web Developer &amp; Programmer</ns0:text>
+    <ns0:text x="75" y="341" font-size="14" fill="#cfcfcf">Game Development · Gaming</ns0:text>
+    <ns0:text x="75" y="380" font-size="14" fill="#f2f2f2">PS C:\Users\Guy&gt;</ns0:text>
+    <ns0:text x="224" y="380" font-size="14" fill="#00ff2a">contact.exe</ns0:text>
+    <ns0:text x="75" y="407" font-size="14" fill="#9a9a9a">Email  :</ns0:text>
+    <ns0:text x="150" y="407" font-size="14" fill="#ffffff">gaimalul1515@gmail.com</ns0:text>
+    <ns0:text x="75" y="431" font-size="14" fill="#9a9a9a">GitHub :</ns0:text>
+    <ns0:text x="150" y="431" font-size="14" fill="#ffffff">github.com/GuyMaluli</ns0:text>
+    <ns0:text x="75" y="470" font-size="14" fill="#f2f2f2">PS C:\Users\Guy&gt;</ns0:text>
+    <ns0:text x="224" y="470" font-size="14" fill="#00ff2a">hardware_sequence.exe</ns0:text>
+    <ns0:svg x="55" y="485" width="990" height="468" viewBox="0 0 1100 520" preserveAspectRatio="xMidYMid meet"><ns0:defs>
+    <ns0:linearGradient id="pc_bg" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#0d1117"/>
+      <ns0:stop offset="100%" stop-color="#0d1117"/>
+    </ns0:linearGradient>
 
+    <ns0:linearGradient id="pc_caseMetal" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#1b1b1b"/>
+      <ns0:stop offset="50%" stop-color="#101010"/>
+      <ns0:stop offset="100%" stop-color="#070707"/>
+    </ns0:linearGradient>
+
+    <ns0:linearGradient id="pc_steel" x1="0" y1="0" x2="1" y2="0">
+      <ns0:stop offset="0%" stop-color="#666666"/>
+      <ns0:stop offset="45%" stop-color="#eeeeee"/>
+      <ns0:stop offset="100%" stop-color="#4a4a4a"/>
+    </ns0:linearGradient>
+
+    <ns0:linearGradient id="pc_gpuBody" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#1b1b1b"/>
+      <ns0:stop offset="55%" stop-color="#101010"/>
+      <ns0:stop offset="100%" stop-color="#080b0f"/>
+    </ns0:linearGradient>
+
+    <ns0:linearGradient id="pc_glass" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <ns0:stop offset="55%" stop-color="#ffffff" stop-opacity="0.015"/>
+      <ns0:stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </ns0:linearGradient>
+
+    <ns0:filter id="pc_shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <ns0:feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000000" flood-opacity="0.75"/>
+    </ns0:filter>
+
+    <ns0:filter id="pc_glow" x="-70%" y="-70%" width="240%" height="240%">
+      <ns0:feGaussianBlur stdDeviation="3" result="blur"/>
+      <ns0:feMerge>
+        <ns0:feMergeNode in="blur"/>
+        <ns0:feMergeNode in="SourceGraphic"/>
+      </ns0:feMerge>
+    </ns0:filter>
+
+    <ns0:path id="pc_gpuBlade" d="M0,-18              C8,-19 15,-13 15,-6              C15,0 10,4 3,5              C6,-3 6,-11 0,-18Z"/>
+  </ns0:defs>
+
+  <!-- Background -->
+  <ns0:rect width="1100" height="520" fill="url(#pc_bg)"/>
+
+  <!-- Hacker grid -->
+  <ns0:g stroke="#30363d" stroke-width="1" opacity="0.18">
+    <ns0:path d="M0 40H1100 M0 80H1100 M0 120H1100 M0 160H1100              M0 200H1100 M0 240H1100 M0 280H1100 M0 320H1100              M0 360H1100 M0 400H1100 M0 440H1100 M0 480H1100"/>
+    <ns0:path d="M40 0V520 M80 0V520 M120 0V520 M160 0V520              M200 0V520 M240 0V520 M280 0V520 M320 0V520              M360 0V520 M400 0V520 M440 0V520 M480 0V520              M520 0V520 M560 0V520 M600 0V520 M640 0V520              M680 0V520 M720 0V520 M760 0V520 M800 0V520              M840 0V520 M880 0V520 M920 0V520 M960 0V520              M1000 0V520 M1040 0V520 M1080 0V520"/>
+  </ns0:g>
+
+  <!-- Header -->
+  <ns0:g font-family="Courier New, monospace">
+    <ns0:text x="44" y="42" fill="#ffffff" font-size="16" letter-spacing="2">
+     
+    </ns0:text>
+    <ns0:text x="1056" y="42" text-anchor="end" fill="#a3a3a3" font-size="13">
+      HARDWARE_SEQUENCE.EXE
+    </ns0:text>
+    <ns0:line x1="44" y1="58" x2="1056" y2="58" stroke="#1b1b1b"/>
+  </ns0:g>
+
+  <ns0:ellipse cx="550" cy="447" rx="300" ry="28" fill="#000000" opacity="0.28"/>
+
+  <!-- Case -->
+  <ns0:g filter="url(#pc_shadow)">
+    <ns0:path d="M345 88 L382 68 H790 L825 88 V427 L790 449 H345Z" fill="#07090c" stroke="#4a4a4a" stroke-width="2"/>
+
+    <ns0:rect x="295" y="87" width="500" height="360" rx="12" fill="url(#pc_caseMetal)" stroke="#a3a3a3" stroke-width="2.5"/>
+
+    <ns0:rect x="315" y="98" width="445" height="325" rx="8" fill="#080808" stroke="#1b1b1b" stroke-width="1.5"/>
+
+    <ns0:path d="M760 88 H795 V447 H760Z" fill="#111111" stroke="#4a4a4a"/>
+
+    <ns0:path d="M316 360 H760 V423 H316Z" fill="#111111" stroke="#1b1b1b"/>
+
+    <ns0:rect x="330" y="447" width="62" height="9" rx="3" fill="#1b1b1b"/>
+    <ns0:rect x="702" y="447" width="62" height="9" rx="3" fill="#1b1b1b"/>
+  </ns0:g>
+
+  <!-- Motherboard -->
+  <ns0:g opacity="0">
+    <ns0:animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.06;0.14;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:animateTransform attributeName="transform" type="translate" values="-470 0;-470 0;0 0;0 0" keyTimes="0;0.06;0.14;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:rect x="395" y="122" width="260" height="225" rx="5" fill="#1a1a1a" stroke="#d8d8d8" stroke-width="2"/>
+
+    <ns0:g fill="#080808" stroke="#a3a3a3">
+      <ns0:circle cx="408" cy="135" r="4"/>
+      <ns0:circle cx="642" cy="135" r="4"/>
+      <ns0:circle cx="408" cy="332" r="4"/>
+      <ns0:circle cx="642" cy="332" r="4"/>
+    </ns0:g>
+
+    <!-- Rear IO -->
+    <ns0:rect x="385" y="140" width="18" height="90" rx="2" fill="#7a7a7a"/>
+    <ns0:g fill="#101010">
+      <ns0:rect x="388" y="147" width="12" height="9"/>
+      <ns0:rect x="388" y="161" width="12" height="13"/>
+      <ns0:rect x="388" y="179" width="12" height="9"/>
+      <ns0:rect x="388" y="193" width="12" height="14"/>
+      <ns0:rect x="388" y="212" width="12" height="10"/>
+    </ns0:g>
+
+    <!-- VRM heatsinks -->
+    <ns0:path d="M415 138 H505 V165 H415Z" fill="#4a4a4a" stroke="#a3a3a3"/>
+    <ns0:path d="M415 170 H442 V244 H415Z" fill="#4a4a4a" stroke="#a3a3a3"/>
+
+    <ns0:g stroke="#a3a3a3" opacity="0.55">
+      <ns0:line x1="425" y1="143" x2="425" y2="160"/>
+      <ns0:line x1="438" y1="143" x2="438" y2="160"/>
+      <ns0:line x1="451" y1="143" x2="451" y2="160"/>
+      <ns0:line x1="464" y1="143" x2="464" y2="160"/>
+      <ns0:line x1="477" y1="143" x2="477" y2="160"/>
+      <ns0:line x1="490" y1="143" x2="490" y2="160"/>
+    </ns0:g>
+
+    <!-- CPU socket -->
+    <ns0:rect x="462" y="181" width="74" height="74" rx="3" fill="#111111" stroke="#a3a3a3" stroke-width="2"/>
+    <ns0:rect x="470" y="189" width="58" height="58" fill="#242424" stroke="#666666"/>
+
+    <!-- RAM slots -->
+    <ns0:g fill="#080808" stroke="#7a7a7a">
+      <ns0:rect x="554" y="161" width="11" height="119" rx="2"/>
+      <ns0:rect x="572" y="161" width="11" height="119" rx="2"/>
+      <ns0:rect x="590" y="161" width="11" height="119" rx="2"/>
+      <ns0:rect x="608" y="161" width="11" height="119" rx="2"/>
+    </ns0:g>
+
+    <!-- Chipset -->
+    <ns0:path d="M567 291 H631 V335 H567Z" fill="#4a4a4a" stroke="#a3a3a3"/>
+    <ns0:path d="M575 299 L622 326 M575 326 L622 299" stroke="#a3a3a3" opacity="0.6"/>
+
+    <!-- M.2 -->
+    <ns0:rect x="443" y="274" width="112" height="17" rx="3" fill="#666666" stroke="#a3a3a3"/>
+
+    <!-- PCIe slots -->
+    <ns0:rect x="426" y="300" width="130" height="10" rx="2" fill="#080808" stroke="#d8d8d8"/>
+    <ns0:rect x="426" y="319" width="105" height="8" rx="2" fill="#080808" stroke="#7a7a7a"/>
+
+    <ns0:g stroke="#a3a3a3" stroke-width="1" fill="none" opacity="0.3">
+      <ns0:path d="M442 170 H454 V181"/>
+      <ns0:path d="M536 190 H550"/>
+      <ns0:path d="M536 230 H550"/>
+      <ns0:path d="M619 280 V290"/>
+      <ns0:path d="M555 309 H565"/>
+      <ns0:path d="M415 260 H440 V274"/>
+    </ns0:g>
+  </ns0:g>
+
+  <!-- CPU -->
+  <ns0:g opacity="0">
+    <ns0:animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.17;0.23;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:animateTransform attributeName="transform" type="translate" values="0 -280;0 -280;0 0;0 0" keyTimes="0;0.17;0.23;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:rect x="473" y="192" width="52" height="52" rx="3" fill="#1b1b1b" stroke="#a3a3a3"/>
+
+    <ns0:path d="M479 197 H519 V239 H479Z" fill="url(#pc_steel)" stroke="#ffffff" stroke-width="1.5"/>
+
+    <ns0:g stroke="#ffffff" opacity="0.4">
+      <ns0:line x1="483" y1="203" x2="515" y2="203"/>
+      <ns0:line x1="483" y1="233" x2="515" y2="233"/>
+    </ns0:g>
+  </ns0:g>
+
+  <!-- RAM -->
+  <ns0:g opacity="0">
+    <ns0:animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.27;0.34;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:animateTransform attributeName="transform" type="translate" values="0 -300;0 -300;0 0;0 0" keyTimes="0;0.27;0.34;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:g>
+      <ns0:rect x="570" y="166" width="14" height="110" rx="2" fill="#111111" stroke="#eeeeee" stroke-width="1.5"/>
+      <ns0:g fill="#4a4a4a">
+        <ns0:rect x="573" y="181" width="8" height="13"/>
+        <ns0:rect x="573" y="199" width="8" height="13"/>
+        <ns0:rect x="573" y="217" width="8" height="13"/>
+        <ns0:rect x="573" y="235" width="8" height="13"/>
+        <ns0:rect x="573" y="253" width="8" height="13"/>
+      </ns0:g>
+    </ns0:g>
+
+    <ns0:g>
+      <ns0:rect x="606" y="166" width="14" height="110" rx="2" fill="#111111" stroke="#eeeeee" stroke-width="1.5"/>
+      <ns0:g fill="#4a4a4a">
+        <ns0:rect x="609" y="181" width="8" height="13"/>
+        <ns0:rect x="609" y="199" width="8" height="13"/>
+        <ns0:rect x="609" y="217" width="8" height="13"/>
+        <ns0:rect x="609" y="235" width="8" height="13"/>
+        <ns0:rect x="609" y="253" width="8" height="13"/>
+      </ns0:g>
+    </ns0:g>
+  </ns0:g>
+
+  <!-- Water cooling -->
+  <ns0:g opacity="0">
+    <ns0:animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.38;0.47;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:animateTransform attributeName="transform" type="translate" values="0 -240;0 -240;0 0;0 0" keyTimes="0;0.38;0.47;1" dur="12s" repeatCount="indefinite"/>
+
+    <!-- Pump block -->
+    <ns0:rect x="465" y="185" width="68" height="68" rx="12" fill="#111111" stroke="#eeeeee" stroke-width="2"/>
+
+    <ns0:rect x="474" y="194" width="50" height="50" rx="9" fill="#242424" stroke="#7a7a7a"/>
+
+    <ns0:circle cx="499" cy="219" r="13" fill="#0d1117" stroke="#d8d8d8" stroke-width="1.5"/>
+
+    <!-- Tubes -->
+    <ns0:path d="M525 203 C570 145 638 122 710 138" fill="none" stroke="#4a4a4a" stroke-width="9" stroke-linecap="round"/>
+
+    <ns0:path d="M526 236 C585 255 651 230 710 190" fill="none" stroke="#1b1b1b" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Radiator -->
+    <ns0:rect x="705" y="120" width="38" height="205" rx="4" fill="#111111" stroke="#a3a3a3" stroke-width="1.5"/>
+
+    <ns0:g stroke="#4a4a4a">
+      <ns0:line x1="712" y1="128" x2="712" y2="317"/>
+      <ns0:line x1="719" y1="128" x2="719" y2="317"/>
+      <ns0:line x1="726" y1="128" x2="726" y2="317"/>
+      <ns0:line x1="733" y1="128" x2="733" y2="317"/>
+    </ns0:g>
+  </ns0:g>
+
+  <!-- PSU on the left -->
+  <ns0:g opacity="0">
+    <ns0:animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.51;0.58;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:animateTransform attributeName="transform" type="translate" values="-250 0;-250 0;0 0;0 0" keyTimes="0;0.51;0.58;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:rect x="330" y="367" width="170" height="49" rx="4" fill="#111111" stroke="#a3a3a3" stroke-width="1.5"/>
+
+    <ns0:circle cx="370" cy="391" r="20" fill="#080808" stroke="#666666"/>
+
+    <ns0:g stroke="#666666">
+      <ns0:line x1="356" y1="377" x2="384" y2="405"/>
+      <ns0:line x1="384" y1="377" x2="356" y2="405"/>
+      <ns0:line x1="351" y1="391" x2="389" y2="391"/>
+      <ns0:line x1="370" y1="372" x2="370" y2="410"/>
+    </ns0:g>
+
+    <ns0:g fill="#1b1b1b" stroke="#7a7a7a">
+      <ns0:rect x="452" y="374" width="35" height="9" rx="2"/>
+      <ns0:rect x="452" y="387" width="35" height="9" rx="2"/>
+      <ns0:rect x="452" y="400" width="35" height="9" rx="2"/>
+    </ns0:g>
+  </ns0:g>
+
+  <!-- GPU -->
+  <ns0:g opacity="0">
+    <ns0:animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.62;0.70;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:animateTransform attributeName="transform" type="translate" values="520 0;520 0;0 0;0 0" keyTimes="0;0.62;0.70;1" dur="12s" repeatCount="indefinite"/>
+
+    <!-- Rear expansion bracket -->
+    <ns0:path d="M380 274 H397 V348 H380Z" fill="#a3a3a3" stroke="#d8d8d8"/>
+
+    <ns0:g fill="#111111">
+      <ns0:rect x="383" y="282" width="11" height="18"/>
+      <ns0:rect x="383" y="306" width="11" height="12"/>
+      <ns0:rect x="383" y="323" width="11" height="12"/>
+    </ns0:g>
+
+    <!-- Visible backplate -->
+    <ns0:path d="M397 266 H666 L684 277 H407Z" fill="#4a4a4a" stroke="#a3a3a3"/>
+
+    <!-- GPU body -->
+    <ns0:path d="M397 274              H674              L690 286              V329              H397Z" fill="url(#pc_gpuBody)" stroke="#eeeeee" stroke-width="2"/>
+
+    <!-- Side heatsink fins -->
+    <ns0:g stroke="#666666" stroke-width="1" opacity="0.85">
+      <ns0:line x1="412" y1="282" x2="412" y2="326"/>
+      <ns0:line x1="423" y1="282" x2="423" y2="326"/>
+      <ns0:line x1="434" y1="282" x2="434" y2="326"/>
+      <ns0:line x1="445" y1="282" x2="445" y2="326"/>
+      <ns0:line x1="456" y1="282" x2="456" y2="326"/>
+      <ns0:line x1="467" y1="282" x2="467" y2="326"/>
+      <ns0:line x1="478" y1="282" x2="478" y2="326"/>
+      <ns0:line x1="489" y1="282" x2="489" y2="326"/>
+      <ns0:line x1="500" y1="282" x2="500" y2="326"/>
+      <ns0:line x1="511" y1="282" x2="511" y2="326"/>
+      <ns0:line x1="522" y1="282" x2="522" y2="326"/>
+      <ns0:line x1="533" y1="282" x2="533" y2="326"/>
+      <ns0:line x1="544" y1="282" x2="544" y2="326"/>
+      <ns0:line x1="555" y1="282" x2="555" y2="326"/>
+      <ns0:line x1="566" y1="282" x2="566" y2="326"/>
+      <ns0:line x1="577" y1="282" x2="577" y2="326"/>
+      <ns0:line x1="588" y1="282" x2="588" y2="326"/>
+      <ns0:line x1="599" y1="282" x2="599" y2="326"/>
+      <ns0:line x1="610" y1="282" x2="610" y2="326"/>
+      <ns0:line x1="621" y1="282" x2="621" y2="326"/>
+      <ns0:line x1="632" y1="282" x2="632" y2="326"/>
+      <ns0:line x1="643" y1="282" x2="643" y2="326"/>
+      <ns0:line x1="654" y1="282" x2="654" y2="326"/>
+      <ns0:line x1="665" y1="282" x2="665" y2="326"/>
+    </ns0:g>
+
+    <!-- Neutral PCIe connector -->
+    <ns0:path d="M430 329 H530 V336 H490 L483 341 H430Z" fill="#cfcfcf"/>
+
+    <!-- Fan tray on the underside -->
+    <ns0:path d="M408 329 H676 V359 H408Z" fill="#080808" stroke="#7a7a7a" stroke-width="1.5"/>
+
+    <!-- Static underside fan 1 -->
+    <ns0:g transform="translate(454 345)">
+      <ns0:ellipse rx="33" ry="12" fill="#080808" stroke="#a3a3a3" stroke-width="1.5"/>
+      <ns0:ellipse rx="26" ry="9" fill="none" stroke="#666666"/>
+      <ns0:g fill="#4a4a4a">
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(60)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(120)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(180)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(240)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(300)"/>
+      </ns0:g>
+      <ns0:ellipse rx="7" ry="3" fill="#d8d8d8"/>
+    </ns0:g>
+
+    <!-- Static underside fan 2 -->
+    <ns0:g transform="translate(540 345)">
+      <ns0:ellipse rx="33" ry="12" fill="#080808" stroke="#a3a3a3" stroke-width="1.5"/>
+      <ns0:ellipse rx="26" ry="9" fill="none" stroke="#666666"/>
+      <ns0:g fill="#4a4a4a">
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(60)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(120)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(180)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(240)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(300)"/>
+      </ns0:g>
+      <ns0:ellipse rx="7" ry="3" fill="#d8d8d8"/>
+    </ns0:g>
+
+    <!-- Static underside fan 3 -->
+    <ns0:g transform="translate(626 345)">
+      <ns0:ellipse rx="33" ry="12" fill="#080808" stroke="#a3a3a3" stroke-width="1.5"/>
+      <ns0:ellipse rx="26" ry="9" fill="none" stroke="#666666"/>
+      <ns0:g fill="#4a4a4a">
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(60)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(120)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(180)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(240)"/>
+        <ns0:path d="M0,-8 C8,-8 16,-5 20,0 C15,2 8,3 0,2Z" transform="rotate(300)"/>
+      </ns0:g>
+      <ns0:ellipse rx="7" ry="3" fill="#d8d8d8"/>
+    </ns0:g>
+
+    <!-- Empty GPU power socket, without cable -->
+    <ns0:rect x="637" y="263" width="31" height="10" rx="2" fill="#111111" stroke="#a3a3a3"/>
+  </ns0:g>
+
+  <!-- Glass panel -->
+  <ns0:g opacity="0">
+    <ns0:animate attributeName="opacity" values="0;0;0.82;0.82" keyTimes="0;0.82;0.89;1" dur="12s" repeatCount="indefinite"/>
+
+    <ns0:rect x="323" y="102" width="435" height="318" rx="8" fill="url(#pc_glass)" stroke="#a3a3a3" stroke-width="1.5"/>
+
+    <ns0:path d="M337 111 L470 111 L337 245Z" fill="#ffffff" opacity="0.035"/>
+
+    <ns0:g fill="#d8d8d8">
+      <ns0:circle cx="337" cy="116" r="3"/>
+      <ns0:circle cx="744" cy="116" r="3"/>
+      <ns0:circle cx="337" cy="406" r="3"/>
+      <ns0:circle cx="744" cy="406" r="3"/>
+    </ns0:g>
+  </ns0:g>
+
+  <!-- Power button -->
+  <ns0:g>
+    <ns0:circle cx="776" cy="110" r="9" fill="#080808" stroke="#a3a3a3" stroke-width="1.5"/>
+
+    <ns0:path d="M776 104 V110 M771 106 A7 7 0 1 0 781 106" fill="none" stroke="#eeeeee" stroke-width="1.5" stroke-linecap="round"/>
+
+    <ns0:circle cx="776" cy="110" r="15" fill="none" stroke="#ffffff" stroke-width="2" opacity="0" filter="url(#pc_glow)">
+      <ns0:animate attributeName="opacity" values="0;0;1;0.25;0.8" keyTimes="0;0.82;0.87;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </ns0:circle>
+  </ns0:g>
+
+  <!-- Interior light -->
+  <ns0:rect x="320" y="99" width="443" height="326" rx="9" fill="none" stroke="#ffffff" stroke-width="2" opacity="0" filter="url(#pc_glow)">
+    <ns0:animate attributeName="opacity" values="0;0;0.45;0.12;0.28" keyTimes="0;0.84;0.89;0.94;1" dur="12s" repeatCount="indefinite"/>
+  </ns0:rect>
+
+  <!-- Status -->
+  <ns0:g font-family="Courier New, monospace">
+    <ns0:text x="44" y="488" fill="#7a7a7a" font-size="13">
+      STATUS:
+    </ns0:text>
+
+    <ns0:text x="108" y="488" fill="#a3a3a3" font-size="13">
+      INSTALLING HARDWARE COMPONENTS
+      <ns0:animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.82;0.86;1" dur="12s" repeatCount="indefinite"/>
+    </ns0:text>
+
+    <ns0:text x="108" y="488" fill="#ffffff" font-size="13" letter-spacing="1.4" opacity="0" filter="url(#pc_glow)">
+      BUILD COMPLETE // SYSTEM ONLINE
+      <ns0:animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.85;0.91;1" dur="12s" repeatCount="indefinite"/>
+    </ns0:text>
+
+    <ns0:rect x="790" y="477" width="266" height="14" rx="7" fill="#111111" stroke="#4a4a4a"/>
+
+    <ns0:rect x="793" y="480" width="0" height="8" rx="4" fill="#eeeeee">
+      <ns0:animate attributeName="width" values="0;0;34;65;98;132;170;208;236;260;260" keyTimes="0;0.05;0.14;0.23;0.34;0.47;0.58;0.70;0.80;0.87;1" dur="12s" repeatCount="indefinite"/>
+    </ns0:rect>
+  </ns0:g>
+</ns0:svg>
+    <ns0:text x="75" y="980" font-size="14" fill="#f2f2f2">PS C:\Users\Guy&gt;</ns0:text>
+    <ns0:text x="224" y="980" font-size="14" fill="#00ff2a">github_activity.exe</ns0:text>
+    <ns0:svg x="60" y="996" width="980" height="155" viewBox="0 0 1166 184" preserveAspectRatio="xMidYMid meet">
+      <ns0:desc>Generated with pacman-contribution-graph on Thu Jul 30 2026 16:33:56 GMT+0000 (Coordinated Universal Time)</ns0:desc>
+      <ns0:metadata>
+		<ns0:info>
+			<ns0:frames>67</ns0:frames>
+			<ns0:frameRate>5</ns0:frameRate>
+			<ns0:durationMs>13400</ns0:durationMs>
+			<ns0:generatedOn>2026-07-30T16:33:56.693Z</ns0:generatedOn>
+		</ns0:info>
+	</ns0:metadata>
+      <ns0:rect width="100%" height="100%" fill="#0d1117"/>
+      <ns0:defs>
+                <ns0:symbol id="pac_ghost-blinky-up" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiklEQVR4nIXSO2sVURQF4G8mMwa8QU2KxFcjCoIgacR/oCBYCP4fsTEIBkWwEK21UAQLIdjYaKEiJIXBXhNBCFaSeDP3zLa4mdyj5rHgwNmPtffZ62z+Q4miKHlWs3yALwUvKYphbC8UjDN3nIUB/SCCSDRnWKiZVxTFrvxp5kMRHbEltaTODuIED3YkT3FnUy+uS815qQkzMSJOxAWpuSo1A72Y4f5f5DFuBpE+vmsmZ9ukF9Eu/xwV+Pw1TEYcOtum9GmxCaLmdl7jeRDp968mcnQFMqS02bSkMV5tS36UBL6t7ixO6o/uK6sKymM0Q9l5NKC/Ldb3lWGrqenRCw73hr61H9viDujjKbztnLnae50uF4sl1nf91/2xvt9q7YuyEwKCNg+2DFoGue/fnHLoGwbyZQ/akqqkykkFZW6XmNy6VJdYyhPP8eE07/PCl1kqqbbMI3BrjY1rvMH4SW4kmou86Eac5UmiOcUcxq/wep2NirugYh4TXfOah6izUauax5leB2vuwR+e2vAshd8i9AAAAABJRU5ErkJggg==" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-blinky-down" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABmUlEQVR4nHXTT0tUYRQG8N97/TOloSYpYv/BNlLYqqJli1Z9gz5SOwkKgpDaRBS5CKJ2fYFWrsyNZWKSOYliw8y9p8XMHa+Tc+ByOec8z/M+7z3nJidHwhtc7ORreIjog29H1iYunmc5iPIpyGd5h0cd8ZNPvcLzXmJBXq1N8/g/kSSlyywFkdPMaVZJvfVZnkhHImmSZyWol9jrqMSMsti5tmhwJyhSO+8bZT8ogrulQDbDQZe8/ZPt38eZA9jbZ2OjKzTFPpJxPrdoBFFsruVRxq+tI/v1nW45vn2NIFo0TvMxTdLcYRBt+DHPne/Up36GvaygDn+p17+srp+d59S1KHyvXOPHgaFLTC9gfUtQdDp/TLAbRJPDQ2O7cyIuiAgzlQlcjSkR8yLCWJS7McJGV6Df2HoXqZqPsJmVdk56J7JEVrGsmida2TATZeM+q+U4E9kcKzdYqe7Hg+OYcdN8atG41f5Zagu8KMhv8rbck9u8L8iv8xS1e3xo0TjHMgyM8BJDnUMGa7xWjrYdQ8O8cuSkNsoSsn/EzgO2a6zxyAAAAABJRU5ErkJggg==" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-blinky-left" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABzklEQVR4nIWSy2tTURCHvzNnzk0TS21sQluhq4Kb+sAH4qrgyoV/oNuCUIogEUGKf4DoolBFfCC4sYKgDVXig/Tec8ZF7k1uo9GBWczvnN8H84DpcM6h6ruw14VBBwZdeIX3inPuj//18FkmS/jtDdgvYGhgBhYhvwwv2khPs8z/3R2CnIcHlWlWXsXvMleDOEBVZaM0R8gTxGljghghN7BLyK4PwY/6UeUsbNuZlsVvn3JLyWz+1MTc8mbHP8x+HpmpWgVZhh5OKsbc0/6bgxhjzM3MbDicAN4f2jj6fUsQE8R52McBrcz7VbpPaJmxWALMxoBOMPMrE0bV3hXYC42grMCziOY3SJG18lf+fQxYx6y1XupfP1t9M6vwkjZ8GQ3JR3t3YHY8MGvWZsBpsw99s8GhmZwcbBd+sQQf/7e6WdmBIynKdRqkf17ZjBCrFdMQg5SgmNbqNySuFAySGwFP1AI6rVW1g0KANoCA3oK3DqR8lIvw/Bzs17Xb8LqqBTosI70ChjfhEVnWuIC/EyHfhIc4L2jmrqH3IuTX0S2azcYmcr+A4RrymCwEafuwJaoNAB+CLKjuiGoY9+q9XxDdcSF4AFEJiyJ3QwjyGx0DPZpbZTAYAAAAAElFTkSuQmCC" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-blinky-right" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABp0lEQVR4nI3TO2tUQRQH8N+9e9eg0YBBlwR8gNHKRqz8Amph4zcSBCWgEBALQbAU0U4EUewsfDQJNuIDiaAkSNhCY3Rz79xjsdndaxKDB6aYM//HzDln2DayrMXDgrct3hXcR7Y9dhMT14/wNFEGEURFb5onuLKjzDQ3B6QgalJNauamuLYt+SA3gkiUTffBauYPbBbJmB2AalJ8+Ryx2o1oN0Qm9kSdeim9Xyh/FFm0uNzUeFSTEmUsfoxhLC6NBNbXIyIipVR+fTGf8AAKZB2qjDyoHZ0B+04wvjJleWDRbisTuzponcon5Om7OoN7Fb1hsVY+RUTE2PGIw2J0g6jjd0TYG3FBnSp6uAPzg4oPwd1vEUvdCJ2RwNRk/1mvPwyxeF5gbUtLJjtb27TcJdsyBGs58n+Mxf9E6y9yUDf3NVVNtQOmzm0Agjpr3Cb6h0VO0SQNu9WPlGNS/x3FWRaawBlenuRVU/g8b/J++2G/grlVfp3jMcaOMZsoT3O3ryM/w4OK3iEuYewiz9b4iasDtznsHpi3uG3kAu2CW0Zfery98R/+AA8N/U/uOBf2AAAAAElFTkSuQmCC" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-inky-up" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABzklEQVR4nJWTzWtTURDFf3fyXtqSCKa1GsWPTRG6UdSVa/8pV+JK6kYh4EoIIrgRuhAMgitdWGqhdtFWq0IoIsVqQUSSZ/Jy73HxkvBin6ADA3fOnXOGmbkXCqwEBrSATWAbeGhFiYeIpdgBDY7OtfiUpHgJSbz7kjBVfQrciO3vUo7aqQe0BxlJEiF4QvDZWeLNZzF15JYrJB+bb7KZiMuDHhd8OhYZ+Vmfcs2nbOyK8vRt54YyBlCqNPja1bL3KRY8Jj3JkVu/JJCO14N/5H3K1q6Amy4rDWCvCMH/8D4NA6kfJJ8TkKQkSApS2/uUrgQsA1jknDFbH+CcfQRcCWIHO7n+vgHTLqu2A+CBciWNsz7Kz9nv90bDakv68Gf/kg4kreSH+3YvAe4Dtj8GC4iFHoLnpwSsGdD5lzdyyPoC6NpoEf9v2Q5stAcAQhhM5IQwKMRyZhACAFLALEKajPMYMI6VZRnY/PAmYuHiaw76WUvfMWZmX3LizApyGba9B4tX1jGLqABQg3K1yepWh3MLTYOIk6fvst7uMVe/5xj+zPOLj1l7n1CtXY8h5tLVZ7zY6ABLWGQOuOMgAnDOGdBgcrjxEBsNbAZYMov4DRt5NkCBfZ1GAAAAAElFTkSuQmCC" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-inky-down" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB10lEQVR4nIWT3WsTURDFfzP37hrTD1QM9hPTYlP7ov6hvgcsvhSUUpD+EfUpRKEi+CRUkYgFrTakabK5d3zYTbLRiAcG7s6eM3vmsBfmQMCRpi1uLFyQVi+oVE8UdB53Bk5EcZWXrNbbXIUMM8PMuBwNqN1/C5XnDmSu2IOyvnXMsBDNq64ZtbUjnRkigogoK5u5OISMGMNf4hAyQuFqe+/QqU6GCEn1BYOC9K+vlwf1zPDJviMPxsiudkks/jekMW5aZJQ9jIA65xwbOxERRUR/AudzNFZUsbay3YhevYPqcpss37ljU8SS7R+l/kczI8ZAP2SIPxFIuthwEeDaLOpodO2cS1XVj1OKZjGEMDSzOPS+sjh2IXKuOOmOnb0GFm6DW4J3JfttIEkt1moWW2b5ugFAekDybSblTTM25qS/YsZucY4xMDIDd+Yp/6Jmkc8yfY5xBICq52uJM4UqECcvRHRCMIuoelT9jKjMyRvpILdlRuPJKd8Lmz0zlm61uHOvRVb0OmbsPD6drAW/YGH5Fe1PPbYaBykkrNWbvO8MWK8fOBABpb53yIfLPndXnzpIePDomDdf+qSLR4hzCtJU8OSBKOizP66vR/y+Ux33EnBN71P5DQllVXyQma9lAAAAAElFTkSuQmCC" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-inky-left" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB4ElEQVR4nH2SvWtUURDFf3Pf24+siYkYFLRRizSaSiVi7V9g7b9hpSgogmIhipVbC0IwQrTQRgQ/CiMxCbsgxi9iIMHGENndrG/vPRZv3+atbDIwMHM4Z+65946xc1SByW791cwuSNIufIiiCOASFB8z/71FU2JTor7miSpPgKtdzgAxgCtdZ2lVSGmG4AnB9/r6uijsuRlh/WLnHLjyFea+CO8TOp12T5Rlp9PG+4TlX6JYuuGcS8VmBnCRd3VNe5/U8id284Okl5kj7xNq6wIu501Mz/xck/c+kaRaTvxc2/FUSh2G4IFnABQKDtzehzYksc8nG5spuefgqDRyJMUa2YBEwsrTUeqeO7z/1uBk8CBtbXSJWQ5LVNIBH/OPu7jSAB4AvOZ3Cs5sSZv/P56kuSDV81gInqYEzMdAky0Po47zpcFffNoGgH8BaDnAMLfDau0S6m5ArwSQQj9JYSCWC9ebJgUsZyXrzVyfqL/vOGCUYQPnYianPrP8J2M6Dh5eYv+BBXx38GoTTkx9wrmYIQDGAG7zttbgzLlXDsqMjV9j4UebieOzBpGBcWziEYsrLcYP3SpCiVNnX/BmqQHcJ45jKJTvAiMAzswwqwLF7XtaDK5q2ZWhgovvRVHMP7z+WsD4PpRYAAAAAElFTkSuQmCC" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-inky-right" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB1klEQVR4nI2Tu4tTURDGf2fOvUlMcAXjigpZFfGBlaAI+h/4T9nYCClslFiJLlhZbJXCJmyxrs91bdyXYLFE8UGURaImN3PG4t6blxH8YIr5+OabOXPOcUzBpeECPAAuZnRb4FqAMK2fgPce4Aa+2GTjY5dgRt+M9m9lbv4xcDuOvZtdDEixXOf9F8MsjRCUEHSYf1KjWrvv00GnEJdusvPNUE1QTYZFeagmDAY92j+NucP3GJo4l4799msqCkFbZrY7bWBmr0LQF6oJux3Dx3dlrP8SGhTVpGkjPBsrXs84VU2e7CUKPAVAxDl86RH9dMxOJtx/0ozKyCAHhzQBM/yJ5ShCABbZ+NDLl7WcCavHzCiNDLYzXiIzjgdlM+lRLLYAXrOXbTwTr5rZ1owd7JjZio1pkU4EdOlPXsjVf7yTM9OEoyuAzLrV/4KJyAQRwuCvfBY3BgECBpgFRKKRe5aLRJiFCS7P0YEAB6kAIhHnLq+z+TkzcMKR2nP2lVf47tJJOwPh7IU1yBtZFaBO680PLl1pFqBA5cB1Xm73OH1+qQBeAOaPNlh794vawp0CxCycWmR1q0up8pBsDXVwZUi/MtAACvlpXHrUhkTiMyoCbvk4dn8AgDJfwO8SCRMAAAAASUVORK5CYII=" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-pinky-up" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACkElEQVR4nG2TT2hcVRTGf/fc+2bey4xJk9hoXGlMES0uCoVoF4IWW1BEkWBB6lKwEPBPLXUlhYIYEiouRDdSsGDalJYmrtIuhECLC0MQIaWmgo2RJo0WMmn+zMy997h4aScTenbn+8453+E798L2EECMFHDjCWbRwoLDTmBEcrI5TFNiDWVjhtJgX549fGV3W+nplKisV+dqu344+NuKrP1SMeZDfNSHDsgonprq//njZ7v2QpJAYZOoAhswW5lm37mXvvlX7w00rZEkiSlRHLz5/mXd1xbqEOr6kaoeq6l+qqqfqEKoP1/21bkPJrWMG7bW5uLGGIDj1/svqq/4as+LqjjVym1V/TKqnlBdW1ClRfWJPap+xVf/endcgc+NMThVBejY6UrQAn9e27JazUCA7DHQ1RwKAbq0FaBTVRFxTtpNKU1dEe5us7gG1IGwBVuGLEnoIMuMtWKAL268ef5Y73NvI8E7jhagCxhSmN/0uLsOx5Nc4NQaUVN/64+f6Lnw1rcOKJVc0WHwrCYwCFiFumncaDGBzzxEB7UClKHVpA4oOSCEGPNCFyFY8Kb5wApsuM3D50RdPECQBgSEmDc2gIYBFhAFzcVMFADbeJsKMbVeVSOqoEpIqYUitTwPqBJjwXoCaN4aBfAh+BjT6OXO786YuqgQY6rezk0VZP7XQiyqRyxGosidaRez6GMIEfACdO7IOsUt/Zc+dfbA2MTMdzVTNrJy+6orjPSdcT++cHr5n0lHBpMz3/snR1+95Jb+TtvTRwR4FOCNM6+cXOorPTMKOIF3xl77er3btn8FgMDjbufQ+OvDVYH3ALen3Ds6sv/EMtB/34FDQEtusgE4wpa/K4IAAyIPoIx8GP8DW7gOkh3Y7ZsAAAAASUVORK5CYII=" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-pinky-down" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACZ0lEQVR4nHWRy4vNYRjHP8/ze885c+GIuTSZxriMS6KkKeQSK0lRDAsbthaTzSyUqYlhxYIsJkTNiGYh+RMYKRFTM5Fxq8ll3BriMOac3+95LM45GYOn3sX79n2/l+cL/58e4CkwAtwFwr9A8tfNOQJsernr2toFtauyFPIgORp7tw68TT6PAgcA+zcBdD7be6O7pXYDVNbgkVsRJEruPR6/puH85hsfyO0uk0gJgOOdT3b1d7csbctLQVRjDXhZxrHgMQH041Cov7jx+kdye0TERERw90PDOy6fXr5yXyxfRcVRomnmzADHqiTWT4Mhc7H1ch72q7sDNC+qnI/FFkslyhwB8d+f3SBL8RTAq5otDysA11IMicSQClE6BI4CS7yYUoB6h2MKxyOYC1JItEGyeSAC6B7c2Tdhhy3xN/7nnHD3jrz7xJQ3c7cuS5L99wsKdxRoakrXVzhu1JTilt1nAI+gYlrVATQ1NxgsUyA/GSfgwBdYvB4ihVfPgRQgCuOgjSDV4O9AIlFsEmBCAfEIUOBsQsNIUajpFPCmALHDSWgag+wPkFPANyAogAbABcDBc2q396HFtYJZFBMc/S5htL0UL7ZYEBUxBUyBxA085Sb510rKIICn3fTHWNBvo4FM0aFn3PTnWPCUW0k2VmDWjFSGKCHdemXL0IMXvUYFyM9Xurh39aCcWziQez8AlWDjD3VZ3+pBHX8USGcB6gDab23r+by9dt09oErg4HDb1ck1M5feLK2RaqIzI3v7JxeEuj4gPU9nX3rc1j+RRq6Wy+kCaqeUdQaYMa28C2XCYpH0iKC/AKR7DJ4ZSbreAAAAAElFTkSuQmCC" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-pinky-left" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACnklEQVR4nG2TTYiVZRTHf+c8z/vee+emNVycYBocHAqGEN3IgEgg7bIZBir72CW2aNEERZiK6Ci4sNrooi9q02KaZhYubNGuhVEkLcqmLkhpwgwqRGBzZ+6d+77POS7uxUw8yz+HP/+Pc+C+EREIIsAc8AdwBVhEEOT+bf4PxTySinQid9+z8vKFpxoDT1RB+KdzrTM69+zFDuknsni0LMoHEAhkzuzV/V+fGNmyC2qP4sENQLqirK9wa+0XHv9q+kzL7DBm9xCoImbHf33x/Mnx8amurIlqVyOSIAnUFcus9MLtxl/f5FsXJk+6yCzufc/wxqVXvvC0lgozS3624z6T3Gfc/T1zd3dvuduxjVQeKjeaz8078I6IoO4OMMaBHXjFTUSUNyswBNQcXu27rIO8nSsK45VRgG3ujoYsyAC5TDyzkxhh5UY/k0zgtlAZhXxrHxsEHNCe/xijaCrS4e9e+Pz1fQ+7Qcgl7y+XBgapfU9N6xDakvtju+3n5+deK8vytAIjw9aoXjjo5k0YbgAfJripUIXyXeg2gQ7wfgHJ8MxtRBs5MBKBdpE2oArMlUCA1dDrR7yn5IMAXevhwcGgSwGwHgHtSQb+TSCxh4iDOxQKfwOiEB3KBATUBSBEQFx64XiWmxgKBg6WU4KjySMGJMFDNMzvxqJAwhzP3WT9poJDVDyKaet61Nb16CoGCkGQ9rJ65ma9I00K1DfHOqFb5hOLey83l+eNKsja7zr82Y4ft3z65PfSWlIG4M/lBXYuPH05dDv55vwhgE0AB7+d+vj29NDEJaD2SNj01tJLX7a317adBxRBx+tji7/tX9gYjLUjQG3f0MQPFyc/WQVmCCGg6DGgAaBRBfQcSOU/n5oBH/XfHGBQ4JRq5A5IWx73SeLhogAAAABJRU5ErkJggg==" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-pinky-right" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACmUlEQVR4nGWTT4iWVRTGf+fce9/vj6Nf4/hnRlEERVcuAsFw0SKRRAhSiBJXgiQiqNRCwc1AC6FsihYVtrKYWShRkkSudBNFCPkVrSSmwj/ziVoa8c3Me99zXLzfTJTP6p57D8957nnOgf9DAUECXCxgJsGdAvmWIAF9Khv5TxAChcWJpsuO6QOXtw4v29wmOzZ3P2+Y3Nm9XT3qWvRDZPxpAkWWWXp/ev/lY8uXbwfpQGvw5sDsn/jjXxn7dOf5Ho8PDm5rgpSSpOzvTL/21Zsja3bNS1tURSL3ARWIjuGZlfD37e/jxg93n38U+wdzzo6IAJz+7dVLnk/mOR8391mvcc7dT7j78dL93Xl3d6+qqnxw6ppH+EBVUXcHWDXGSN3A4wINyEB/HzAELBV4IwFQAX+8vMUyjJkZKkG0Q7MoUgIDnqm/3VoN7RXAPaAIAPT79fHZ50Z1tFiXUiCoV/7e9b2Th2zdthz6FMzUBBs2wfBCyVwBEFvAKo27Om4/7596qaz4XIHO0tCICLWCCaAHN6/Cw3FqJ/5SOFOSSvAuXDkCK6qmAsMRKDNWmxIc5oG3HaJBqRCkNquX4HQeWB4G0igVcF0YB/fa2EpgNoDZQmKNuQh9Bwev3bN/h9PAipDd3RBAK6whuWowj/giubVCxsEGRRWwbJVZy7Le60aRSgGskKx3f4x+64fCE4YKBNBeN1rLsrlZrR5WjjQ7Gh/2musv7P7ym18+nqUNVe+7OPTZ9qk0teOTmd+vKEvgxs1J1k4+fzHc+alIjSEFRgH2Tr3w1oNtnU0XgAi8cmnPRH99Y/VHSK1ziDj+9YtnyzbFUSBsbKw998Wes/8Ahxc6cABZXB2AIyISFvdMVYATMcZBTAJeB3gCWn4PpFt1S94AAAAASUVORK5CYII=" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-clyde-up" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACj0lEQVR4nG2TT2hUVxSHv3PunZfJm5CMiSGSaigxUDSIFv9sutBNQSiuCl1YpO2iUdAiFURKRSUBiyC6EFEsLrJQEHHdlXShiwYpVVBQpJuaVkZDdDI248x7954u5llH8MCFy3fO+fG799wrvCfUJxLz9mXgwwL97rw/HPL8feVvw3sPcLwPrv8z1W92ELPvscdfpS2Fq8BBEXmnR7q3vdjJh1OjP4wNLmMjLyOlItNGWRjk7t8pH8/OHxKRs2bWZVk9Kcw8+Ha97RgN2eRA3rKZCbPTmJ3B7Og2+6Anb32+NmR3vh4JwHfOuUJdBAc//rV/2MLS7YxqDGBmTx+anfdms8O28OcTA7OBiRhC45fszu4+A/aKCN7MCLB1zaARKxt4VRPVAPR+BNEgKzM0vpqXDXAV0RjWtTetaHpg0szwmnjSdv6aDOAplaS/ONhzMMCaQGCgr2M5SE1DVJQQxDk0tvOLj6Yqu2xkIerspx5qQBOubIdmgPoCXPuko5k/wl3amZTWZfHu7upUCOGYBzaMVpZTKxGpPYEL46AlqNc7MwrA/Bz8XIXMYGkJW0EcqzRSYNwD/xIUYgAFGssd69o16AgsFoIFb0UFQlMB/3/CigZfNFuxKNgbMQMRA3CFnoMAMaHzVouiWCaPZXKsYHTVFFYUyLCA9RB1UTyuQ80Ttea8PhdvJSLa4foCHxPymLsIZAoMURa0lvrJs/63xccJpCDzFU1PhptjP9ltedarpPDgj0q+5Vwy5+tpub/8WoEqwIm5L4cbmwfcDSAZ8kzf/2ZVa1S5WNyi29jvbtzbs7qZIgeA8merSrd+/WJlHdiHcw6PnwZ6O/9CRXFnQN/MARHpcXCqC1UVPSIi/AeSmwjoBKJbfAAAAABJRU5ErkJggg==" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-clyde-down" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACbElEQVR4nHWSu2tUYRDFfzP37t27DzbZyOrGRyISBIPaaKNNChsbKxEEKx9EEEUUUkgKEaKCRAVfUUNasU7tH5BCQaIiEl/EmEgIebnZzd29+41FEl2DDkwz35wz35wzwv/jOrAHqAHTwDnABLCGJr8RIQJmXAJ2vz2ROt65YTmNMyajLDsGS5kqfAKu/YVZN/XK2KncjY6NFWit4ZLEABKj8l31x3yK7QNLdyO4/C+C3s+n833t++diczivTICtdgjUU1QRiN7kgpaBxXsRXGwk6Jk41XSrdd9CLCVUQPHW/c2BGc4yuPKHrJ+7X+o36FnToGvzlrIzAUl6itZXpFtTS4BQEUMtdi5TjB1wCEBX30tSFSURwtmXcGEaCh3gVsG5FrjwaSWbNyHVuqZhcW2DxxPdmSX3IFG3yoj9iWmzJ3mze56ZfWioj5l7lKtXzjdVgGEFDmxpKqcJahB2NixdgIQPosDOhnoHBEbYshACXQosEgs4hegLbXtBUlCerYBfBa8O5Sn8Ngi2AqVxRGOlqgA/FfBRD5yDwaMkPwPLkH5yBOYWIHIweJjMNwi/A0+PQVQBLwBQ/7fKMdjyRzfWW1AsC/IVBzEKWhv1F/raQWLMTToikBUDnA/EmMNCnM4GPvkZYAYDp3PqYx7WVHOSHVc8kPlAXbYaC3UViBVoIanofMbfd9tGZ95nIQCZzWt7n3vVfK02IlN5JQC+ZOm8yWudSvqEYFAAuPPuZHHpYDMvgDAHV8e7i9GuFMOAB0hRGJo4U6xtUx4DQUeCZ+9PFys+PF/zph/INNzdABA0eKfA0CohQAJ4CMgv7wr9rCokR+cAAAAASUVORK5CYII=" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-clyde-left" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACk0lEQVR4nGWTT4jVVRTHP+fcM783b97TpzNqjDMaZTCFZBJCbqRN62jbRhGrhWW4axM0BrNIEJpwCoUGghZtbOWmbWoUEU0Jok8xCMU/U6O+p7557917T4vf82V54HsvF77nfr/33HPg/yECqgp8BzQHWEQVEXmCbv85mEmM8dhG9x3XDjVeLcbuGaos/92YnD55Z6qPnDOzj2OM/+o9rt1Qjt9+t3Kw2NCFBriQEZAeShv+vLme50+0jnTUZ8kZAH20roP5y4emDtqLxLyWSA+ki8oqSmHkp0Kc3n4nNg/UPgpZPhw+R0QQmLv+wYyn9Fs/5+XkX25zP0qJb15w97Z793fPx4uUFuhf3DfuwOHHa3Lq6vmfU0qp7+7uvuy+YO6fr3Hv3PJh3P3B+1/Q8fdxYB5ArQhSlyrP7tylYS087AJsgELhxiTS2MTGmYFMYxsSUVxQEDMTjb301aV31r++o+aZh2rBAFqQUpnUg/TIafcaoUPhz3n+dd/42zHGIwo8s3n0pi3NzpBuXaUS2vD1bmglqDfxT/ewcqENqQmLr4GDV8hbK3dHga0GdHCgehn9djskg/v3y/8RQM7C4iT0EjxYLZ1k6PcN6HUMUEShl0tCoIQPsAqsPhhcBqRyF8kAQQFFHQTyGHGYDOQKMVeIQzeAG2UHBYaNFMmOF2RdKUuIlkS9LaYrZj5CxgbKbdQD2aMDJAXWURj6V2EvzY/80vqjBjWQ63VdM8f3W47qT7JSU6pw6UI9v7IwuhRa1aJWcYA6wNzS3on27gk5DVSmRmTuylubO09XWQQVsPDyhJxu7p/o1k0Og1bfmLYfz7y5qQ28h5kRkE9AxgBCCAosgIbhlAmjAp+VUw6g4wKzqso/UZISjmIm/qIAAAAASUVORK5CYII=" width="20" height="20"/>
+                </ns0:symbol>
+                
+                <ns0:symbol id="pac_ghost-clyde-right" viewBox="0 0 20 20">
+                    <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACkUlEQVR4nG2Sz4uVZRTHP+c8z33vfe+90zg/dEaZULlUEgQa1NZ/wIXQtl8bN2HRJlq4CwRhxDEZBYtpF9QiaSHtWgiioBthwCjMizk23hrTxmruve/7nNPivd7IOnB4OHCew/mezxeeDhEQkRpczODnGqzV4RohBET+2/6vQlXqxnIT27/23tT+fPL3Jm54f8L2Lv157W6yLrXa61YU9j8DVKZFz99/d/JIbfYR5Anq4I6Jo2xmsAm7Tw2//sl4DTAABYgxyjR2vnc0PxI6D0qboySfgj7IAGUI1h6Wtk/LO8f2HH4WLsQQVMaaYal/dNrTMoV/Muvut9y97/7lPvdF3E/ivtJx94ee0kaRFg/4BHyO6nj/r+xDUjpL4eX3Po4/NtzPTbkvB3fvubt7SqnodbsJ9GolPIjOoCqeKSiEDgCNXSDtGbg/A5kDOwAI22Bu7x6dknmyKFE9+YU77zxzyHcNTYcWsZsAtCchA3CHZMA9HCDX2Mlg7f1tr2alX1dgodV8FAlACXx6EMrv2Fh9wODMy9D+ER4DK68g3MW7t7m1+BzN/KYOYCECA0wABwc2H8K5lyBTsGLECfhtHc52KvJhCASMNIgVSq+afAR2kKCf/nHKk/yrgBI8x4SKQTXfq8cyyvEnBWtQWp1ybDcBa45qDzwxkgF4humvWt1CwCOmPaKuS/SAEcADpr+ESI3RwTAFZmmArtfji6fl8r3VFrRAehO64wTfZif8G++2lTps3Z7Q50/rJek2lNxIsB3g+JU35h8fmA4XQbM2fLD65sLWC634BQQFYQ7O/PDWzmJnXZZA4+4GKzfent9qwWeoKlD7CDSvRCkCp5Rq0crtQSK1jzWOvKsaFT0ZY5S/AWqkD0QparkoAAAAAElFTkSuQmCC" width="20" height="20"/>
+                </ns0:symbol>
+                
+    <ns0:symbol id="pac_ghost-scared" viewBox="0 0 20 20">
+        <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADCklEQVR4nFWSX2hbZRjGf993vnN60qSNXWva6JpR7f5km7qrWrVUXYt2HdOCk2FBoQiDsivxRmU3XggiKIIIuxgOpxeyKsL8A8IoaJVNrMy4Mant2qZbMxKX5k/TmJ6cfJ8Xyao+8PK8F89z8bzPK7gDIcHo+t42GGbwmzk8vwJCIi2HH4d7KfxcAgFCbGkFANIB7cH2l3exc+IVCHfRtn8Mzb/IJ6YQpSxzp94h9enSHY9CyLq5Z3If8ddO0xrrpwr4/B/tDz2PDbj37EW5x1k5PYeQSIyBHcfjxN84QzDWz0a1jNY+1n/MFqC1z0a1TKhnkH0nP2L7xE6MQSAkPH7lPJG9R6j4FXzlstkwBQADlBscAKiWabGbWZ39hJm+lxRGg59PgdFUpdrWDf1xWCvBpV8AG548CIEAXEiAl5aKmtF42RsYgyK4x8EKtSOFZMPo8SfggxfqJ7CPgAjA9Ov1JIffh2/PC0lYSJy2KKHdjmLw0gJN4W48o1FS3S7UxVfSdTYa0lXotKFQAiyp8IxmW98EAz88LBgtpnBaovU6G9kdoAZ4jaKdBnuAbgxAJTuvMEajgHXts1nzcJWLKyQ1YN2vANCqXCRQ1j5ezaNJKlosB6NrEltIbsKJ5zLXrp8rrr44ml1gyWiaSunfPs4tz54p3MAq32bZ6MljxdXr59ZvTR7NJ0kBtrQEQ7nlN09IVS7mkn/mOnp778olH3nw7t1/ZQs3f5q3bNuynIE4tIbc8MU/iqnFW8GOAztKmU3jht869XdOIYRMZyuFzy/H+jO/Ctl1wN+MdRZTiRU7cPbLth4UNDnF1T1dpczZ75vbM4lgZPaxYGSkN30VI6TgUH4FK9xNevpd2iL307J/jIzRmHySyldvo4HmZ08iWu8lIiTFxBS57ArRg6/ip6/C4VKapy9/Rug+m8gzXYzOX2DcGIYSU1uvPHTta8aN4dDcd3Q81U5wl8PI718wkl2A4eRFQg+4W+LosRhH1xZ5dPo9hAJhw8DMh4ytLdI5Ft3ShfuCDC/N/AMdtzXsl7IlxgAAAABJRU5ErkJggg==" width="20" height="20"/>
+    </ns0:symbol>
+            <ns0:symbol id="pac_ghost-eyes-up" viewBox="0 0 20 20">
+                <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAj0lEQVR4nO2RsQ7CMAxE79K6aQCJbuztb8Af8P8rX8HaYzCChgbanZ5kyYqezjkb2MR3K02eOUdzJiBwhBCsgPWE7RcmD9YfBsCgp9zdS5Kul/Mpn50z95tzdSkAAKSYZp/7ZDzKF6XYxIUUvw12bbvKAF1VMQCvXUhSydXIjDk2kcDkjL4kF1k+4xrmH/UA3stP0Iur7f8AAAAASUVORK5CYII=" width="20" height="20"/>
+            </ns0:symbol>
+            
+            <ns0:symbol id="pac_ghost-eyes-down" viewBox="0 0 20 20">
+                <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAm0lEQVR4nO2Ryw3CQAxE35jdEBFRAycEpUAJ9A81EBIlcMjPgazEHUbyxX47I3vhLwBiDDydUpxnQt8zgG2+kQeD1A2cTJo3JIqVzV29jod9NrCX82m3xLRt27wHTYlmY+SjquslRpJ9ZVAmDKC/wf0K0lQAuFtWddn0a88ZgAwoKKx7MdRnShxdF5hAHIc5t+Q3rp2BoRT2c3oBFX9xUA7hwq8AAAAASUVORK5CYII=" width="20" height="20"/>
+            </ns0:symbol>
+            
+            <ns0:symbol id="pac_ghost-eyes-left" viewBox="0 0 20 20">
+                <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuUlEQVR4nO2PvRIBQRCEu+fOIaD8RkoRKCGZwNt4fwKFcutnW2LP1tWdF6CjmdmveruBvxgGSSqOJKvgmEnM6CWYxS7hkYSVbuWdABIC9pTkI2cAeHiv3WazDPsiazWeFczDS0buQQLl0CfnrmHOb10LDHkoJxtV1cXZubyohCyyH36tVuji8vvHwJI6DltMhzNM2jqpUJqmaEdMD8YV5h3l0vHNrAf9zrjV/ARQpLrPYmYBZrWpfkwv2KllZq2VZYMAAAAASUVORK5CYII=" width="20" height="20"/>
+            </ns0:symbol>
+            
+            <ns0:symbol id="pac_ghost-eyes-right" viewBox="0 0 20 20">
+                <ns0:image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArklEQVR4nO2RsQrCMBCGv0vaUq2gIlJxEBEX6eLi5jv4/g8h0qViIpxT27S0i3M/COTCx5/cBSYAiIxBA8a8IcfEIhiRjmh7tQHi3pkAVnqpIfs4sbX8KIrdmGc6qfJCBETA+XlzZeWc73r1etIJgHXw7KjZV957Btn0A8K+26bf7vMd88izmbnl+UpVtVRVrVSvnJeLICAFkiRu51WqHjlkd05bAC7Gpv9+4wT8AASmiluJhbS5AAAAAElFTkSuQmCC" width="20" height="20"/>
+            </ns0:symbol>
+            </ns0:defs>
+      <ns0:text x="10" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Jul</ns0:text>
+      <ns0:text x="32" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Aug</ns0:text>
+      <ns0:text x="54" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="142" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Sep</ns0:text>
+      <ns0:text x="164" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="230" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Oct</ns0:text>
+      <ns0:text x="252" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="318" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Nov</ns0:text>
+      <ns0:text x="340" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="428" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Dec</ns0:text>
+      <ns0:text x="450" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="516" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Jan</ns0:text>
+      <ns0:text x="538" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="604" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Feb</ns0:text>
+      <ns0:text x="626" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="692" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Mar</ns0:text>
+      <ns0:text x="714" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="802" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Apr</ns0:text>
+      <ns0:text x="824" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="890" y="10" text-anchor="middle" font-size="10" fill="#8b949e">May</ns0:text>
+      <ns0:text x="912" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="1000" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Jun</ns0:text>
+      <ns0:text x="1022" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:text x="1088" y="10" text-anchor="middle" font-size="10" fill="#8b949e">Jul</ns0:text>
+      <ns0:text x="1110" y="10" text-anchor="middle" font-size="10" fill="#8b949e"/>
+      <ns0:rect id="pac_c-0-0" x="0" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-0-1" x="0" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-0-2" x="0" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-0-3" x="0" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-0-4" x="0" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-0-5" x="0" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-0-6" x="0" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-1-0" x="22" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-1-1" x="22" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-1-2" x="22" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-1-3" x="22" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-1-4" x="22" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-1-5" x="22" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-1-6" x="22" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-2-0" x="44" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-2-1" x="44" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-2-2" x="44" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-2-3" x="44" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-2-4" x="44" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-2-5" x="44" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-2-6" x="44" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-3-0" x="66" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-3-1" x="66" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-3-2" x="66" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-3-3" x="66" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-3-4" x="66" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-3-5" x="66" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-3-6" x="66" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-4-0" x="88" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-4-1" x="88" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-4-2" x="88" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-4-3" x="88" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-4-4" x="88" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-4-5" x="88" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-4-6" x="88" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-5-0" x="110" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-5-1" x="110" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-5-2" x="110" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-5-3" x="110" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-5-4" x="110" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-5-5" x="110" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-5-6" x="110" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-6-0" x="132" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-6-1" x="132" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-6-2" x="132" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-6-3" x="132" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-6-4" x="132" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-6-5" x="132" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-6-6" x="132" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-7-0" x="154" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-7-1" x="154" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-7-2" x="154" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-7-3" x="154" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-7-4" x="154" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-7-5" x="154" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-7-6" x="154" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-8-0" x="176" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-8-1" x="176" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-8-2" x="176" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-8-3" x="176" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-8-4" x="176" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-8-5" x="176" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-8-6" x="176" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-9-0" x="198" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-9-1" x="198" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-9-2" x="198" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-9-3" x="198" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-9-4" x="198" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-9-5" x="198" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-9-6" x="198" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-10-0" x="220" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-10-1" x="220" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-10-2" x="220" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-10-3" x="220" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-10-4" x="220" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-10-5" x="220" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-10-6" x="220" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-11-0" x="242" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-11-1" x="242" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-11-2" x="242" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-11-3" x="242" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-11-4" x="242" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-11-5" x="242" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-11-6" x="242" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-12-0" x="264" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-12-1" x="264" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-12-2" x="264" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-12-3" x="264" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-12-4" x="264" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-12-5" x="264" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-12-6" x="264" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-13-0" x="286" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-13-1" x="286" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-13-2" x="286" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-13-3" x="286" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-13-4" x="286" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-13-5" x="286" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-13-6" x="286" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-14-0" x="308" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-14-1" x="308" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-14-2" x="308" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-14-3" x="308" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-14-4" x="308" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-14-5" x="308" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-14-6" x="308" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-15-0" x="330" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-15-1" x="330" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-15-2" x="330" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-15-3" x="330" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-15-4" x="330" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-15-5" x="330" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-15-6" x="330" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-16-0" x="352" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-16-1" x="352" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-16-2" x="352" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-16-3" x="352" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-16-4" x="352" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-16-5" x="352" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-16-6" x="352" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-17-0" x="374" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-17-1" x="374" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-17-2" x="374" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-17-3" x="374" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-17-4" x="374" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-17-5" x="374" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-17-6" x="374" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-18-0" x="396" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-18-1" x="396" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-18-2" x="396" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-18-3" x="396" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-18-4" x="396" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-18-5" x="396" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-18-6" x="396" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-19-0" x="418" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-19-1" x="418" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-19-2" x="418" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-19-3" x="418" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-19-4" x="418" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-19-5" x="418" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-19-6" x="418" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-20-0" x="440" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-20-1" x="440" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-20-2" x="440" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-20-3" x="440" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-20-4" x="440" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-20-5" x="440" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-20-6" x="440" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-21-0" x="462" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-21-1" x="462" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-21-2" x="462" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-21-3" x="462" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-21-4" x="462" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-21-5" x="462" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-21-6" x="462" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-22-0" x="484" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-22-1" x="484" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-22-2" x="484" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-22-3" x="484" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-22-4" x="484" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-22-5" x="484" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-22-6" x="484" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-23-0" x="506" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-23-1" x="506" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-23-2" x="506" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-23-3" x="506" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-23-4" x="506" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-23-5" x="506" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-23-6" x="506" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-24-0" x="528" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-24-1" x="528" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-24-2" x="528" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-24-3" x="528" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-24-4" x="528" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-24-5" x="528" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-24-6" x="528" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-25-0" x="550" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-25-1" x="550" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-25-2" x="550" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-25-3" x="550" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-25-4" x="550" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-25-5" x="550" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-25-6" x="550" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-26-0" x="572" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-26-1" x="572" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-26-2" x="572" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-26-3" x="572" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-26-4" x="572" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-26-5" x="572" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-26-6" x="572" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-27-0" x="594" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-27-1" x="594" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-27-2" x="594" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-27-3" x="594" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-27-4" x="594" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-27-5" x="594" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-27-6" x="594" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-28-0" x="616" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-28-1" x="616" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-28-2" x="616" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-28-3" x="616" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-28-4" x="616" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-28-5" x="616" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-28-6" x="616" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-29-0" x="638" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-29-1" x="638" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-29-2" x="638" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-29-3" x="638" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-29-4" x="638" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-29-5" x="638" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-29-6" x="638" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-30-0" x="660" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-30-1" x="660" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-30-2" x="660" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-30-3" x="660" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-30-4" x="660" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-30-5" x="660" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-30-6" x="660" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-31-0" x="682" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-31-1" x="682" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-31-2" x="682" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-31-3" x="682" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-31-4" x="682" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-31-5" x="682" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-31-6" x="682" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-32-0" x="704" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-32-1" x="704" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-32-2" x="704" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-32-3" x="704" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-32-4" x="704" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-32-5" x="704" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-32-6" x="704" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-33-0" x="726" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-33-1" x="726" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-33-2" x="726" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-33-3" x="726" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-33-4" x="726" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-33-5" x="726" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-33-6" x="726" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-34-0" x="748" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-34-1" x="748" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-34-2" x="748" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-34-3" x="748" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-34-4" x="748" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-34-5" x="748" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-34-6" x="748" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-35-0" x="770" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-35-1" x="770" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-35-2" x="770" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-35-3" x="770" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-35-4" x="770" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-35-5" x="770" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-35-6" x="770" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-36-0" x="792" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-36-1" x="792" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-36-2" x="792" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-36-3" x="792" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-36-4" x="792" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-36-5" x="792" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-36-6" x="792" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-37-0" x="814" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-37-1" x="814" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-37-2" x="814" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-37-3" x="814" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-37-4" x="814" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-37-5" x="814" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-37-6" x="814" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-38-0" x="836" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-38-1" x="836" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-38-2" x="836" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-38-3" x="836" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-38-4" x="836" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-38-5" x="836" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-38-6" x="836" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-39-0" x="858" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-39-1" x="858" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-39-2" x="858" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-39-3" x="858" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-39-4" x="858" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-39-5" x="858" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-39-6" x="858" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-40-0" x="880" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-40-1" x="880" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-40-2" x="880" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-40-3" x="880" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-40-4" x="880" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-40-5" x="880" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-40-6" x="880" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-41-0" x="902" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-41-1" x="902" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-41-2" x="902" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-41-3" x="902" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-41-4" x="902" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-41-5" x="902" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-41-6" x="902" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-42-0" x="924" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-42-1" x="924" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-42-2" x="924" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-42-3" x="924" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-42-4" x="924" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-42-5" x="924" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-42-6" x="924" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-43-0" x="946" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-43-1" x="946" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-43-2" x="946" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-43-3" x="946" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-43-4" x="946" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-43-5" x="946" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-43-6" x="946" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-44-0" x="968" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-44-1" x="968" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-44-2" x="968" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-44-3" x="968" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-44-4" x="968" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-44-5" x="968" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-44-6" x="968" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-45-0" x="990" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-45-1" x="990" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-45-2" x="990" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-45-3" x="990" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-45-4" x="990" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-45-5" x="990" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-45-6" x="990" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-46-0" x="1012" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-46-1" x="1012" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-46-2" x="1012" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-46-3" x="1012" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-46-4" x="1012" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-46-5" x="1012" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-46-6" x="1012" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-47-0" x="1034" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-47-1" x="1034" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-47-2" x="1034" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-47-3" x="1034" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-47-4" x="1034" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-47-5" x="1034" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-47-6" x="1034" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-48-0" x="1056" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-48-1" x="1056" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-48-2" x="1056" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-48-3" x="1056" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-48-4" x="1056" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-48-5" x="1056" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-48-6" x="1056" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-49-0" x="1078" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-49-1" x="1078" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-49-2" x="1078" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-49-3" x="1078" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-49-4" x="1078" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-49-5" x="1078" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-49-6" x="1078" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-50-0" x="1100" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-50-1" x="1100" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-50-2" x="1100" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-50-3" x="1100" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-50-4" x="1100" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-50-5" x="1100" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-50-6" x="1100" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-51-0" x="1122" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-51-1" x="1122" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-51-2" x="1122" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-51-3" x="1122" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-51-4" x="1122" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-51-5" x="1122" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-51-6" x="1122" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-52-0" x="1144" y="15" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-52-1" x="1144" y="37" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-52-2" x="1144" y="59" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-52-3" x="1144" y="81" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#39d353;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-52-4" x="1144" y="103" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#39d353;#161b22;#161b22" keyTimes="0;0.9848;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-52-5" x="1144" y="125" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_c-52-6" x="1144" y="147" width="20" height="20" rx="5" fill="#161b22">
+				<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" calcMode="discrete" values="#161b22;#161b22" keyTimes="0;1"/>
+			</ns0:rect>
+      <ns0:rect id="pac_wh-8-1" x="174" y="35" width="88" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-21-1" x="460" y="35" width="66" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-29-1" x="636" y="35" width="66" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-41-1" x="900" y="35" width="88" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-0-2" x="-2" y="57" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-6-2" x="130" y="57" width="88" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-13-2" x="284" y="57" width="132" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-25-2" x="548" y="57" width="22" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-27-2" x="592" y="57" width="22" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-34-2" x="746" y="57" width="132" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-43-2" x="944" y="57" width="88" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-51-2" x="1120" y="57" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-2-3" x="42" y="79" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-18-3" x="394" y="79" width="22" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-34-3" x="746" y="79" width="22" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-49-3" x="1076" y="79" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-8-4" x="174" y="101" width="88" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-19-4" x="416" y="101" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-25-4" x="548" y="101" width="66" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-32-4" x="702" y="101" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-41-4" x="900" y="101" width="88" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-0-5" x="-2" y="123" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-4-5" x="86" y="123" width="22" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-13-5" x="284" y="123" width="132" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-20-5" x="438" y="123" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-31-5" x="680" y="123" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-34-5" x="746" y="123" width="132" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-48-5" x="1054" y="123" width="22" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-51-5" x="1120" y="123" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-1-6" x="20" y="145" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-5-6" x="108" y="145" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-46-6" x="1010" y="145" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wh-50-6" x="1098" y="145" width="44" height="2" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-3-4" x="64" y="101" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-4-1" x="86" y="35" width="2" height="88" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-6-2" x="130" y="57" width="2" height="66" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-8-4" x="174" y="101" width="2" height="44" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-12-1" x="262" y="35" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-12-3" x="262" y="79" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-16-2" x="350" y="57" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-16-4" x="350" y="101" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-19-3" x="416" y="79" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-20-5" x="438" y="123" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-21-1" x="460" y="35" width="2" height="66" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-22-5" x="482" y="123" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-25-2" x="548" y="57" width="2" height="44" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-28-2" x="614" y="57" width="2" height="44" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-31-5" x="680" y="123" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-32-1" x="702" y="35" width="2" height="66" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-33-5" x="724" y="123" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-34-3" x="746" y="79" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-37-2" x="812" y="57" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-37-4" x="812" y="101" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-41-1" x="900" y="35" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-41-3" x="900" y="79" width="2" height="22" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-45-4" x="988" y="101" width="2" height="44" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-47-2" x="1032" y="57" width="2" height="66" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-49-1" x="1076" y="35" width="2" height="88" fill="#ffffff"/>
+      <ns0:rect id="pac_wv-50-4" x="1098" y="101" width="2" height="22" fill="#ffffff"/>
+      <ns0:path id="pac_pacman" d="M 10,10             L 18.525245220595057,15.226872289306591             A 10,10 0 1,1 18.525245220595057,4.773127710693408             Z" fill="yellow">
+		<ns0:animate attributeName="fill" dur="13400ms" repeatCount="indefinite" keyTimes="0;0.9845;0.9848;1" values="yellow;yellow;red;red"/>
+		<ns0:animateTransform attributeName="transform" type="translate" dur="13400ms" repeatCount="indefinite" keyTimes="0;0.0152;0.0303;0.0455;0.0606;0.0758;0.0909;0.1061;0.1212;0.1364;0.1515;0.1667;0.1818;0.197;0.2121;0.2273;0.2424;0.2576;0.2727;0.2879;0.303;0.3182;0.3333;0.3485;0.3636;0.3788;0.3939;0.4091;0.4242;0.4394;0.4545;0.4697;0.4848;0.5;0.5152;0.5303;0.5455;0.5606;0.5758;0.5909;0.6061;0.6212;0.6364;0.6515;0.6667;0.6818;0.697;0.7121;0.7273;0.7424;0.7576;0.7727;0.7879;0.803;0.8182;0.8333;0.8485;0.8636;0.8788;0.8939;0.9091;0.9242;0.9394;0.9545;0.9697;0.9848;1" values="22,15;44,15;66,15;88,15;110,15;132,15;154,15;176,15;198,15;220,15;242,15;264,15;264,37;264,59;286,59;308,59;330,59;330,81;352,81;374,81;396,81;396,103;418,103;440,103;462,103;484,103;506,103;506,125;528,125;528,147;550,147;572,147;594,147;616,147;638,147;660,147;682,147;704,147;726,147;726,125;726,103;748,103;748,81;770,81;792,81;814,81;814,103;836,103;858,103;880,103;902,103;924,103;946,103;968,103;968,125;968,147;990,147;1012,147;1034,147;1056,147;1078,147;1078,125;1100,125;1100,103;1122,103;1144,103;1144,81" additive="sum"/>
+		<ns0:animateTransform attributeName="transform" type="rotate" dur="13400ms" repeatCount="indefinite" keyTimes="0;0.1663;0.1667;0.1966;0.197;0.242;0.2424;0.2576;0.3027;0.303;0.3182;0.3936;0.3939;0.4091;0.4242;0.4394;0.5754;0.5758;0.6057;0.6061;0.6212;0.6364;0.6814;0.6818;0.697;0.8027;0.803;0.833;0.8333;0.9087;0.9091;0.9242;0.9394;0.9545;0.9845;0.9848;1" values="0 10 10;0 10 10;90 10 10;90 10 10;0 10 10;0 10 10;90 10 10;0 10 10;0 10 10;90 10 10;0 10 10;0 10 10;90 10 10;0 10 10;90 10 10;0 10 10;0 10 10;270 10 10;270 10 10;0 10 10;270 10 10;0 10 10;0 10 10;90 10 10;0 10 10;0 10 10;90 10 10;90 10 10;0 10 10;0 10 10;270 10 10;0 10 10;270 10 10;0 10 10;0 10 10;270 10 10;270 10 10" calcMode="discrete" additive="sum"/>
+		<ns0:animate attributeName="d" dur="0.5s" repeatCount="indefinite" values="M 10,10             L 18.525245220595057,15.226872289306591             A 10,10 0 1,1 18.525245220595057,4.773127710693408             Z;M 10,10             L 19.987502603949665,10.499791692706783             A 10,10 0 1,1 19.987502603949665,9.500208307293216             Z;M 10,10             L 18.525245220595057,15.226872289306591             A 10,10 0 1,1 18.525245220595057,4.773127710693408             Z"/>
+	</ns0:path>
+      <ns0:g id="pac_ghost0" transform="translate(0,0)">
+			<ns0:animateTransform attributeName="transform" type="translate" dur="13400ms" repeatCount="indefinite" keyTimes="0;0.0152;0.0303;0.0455;0.0606;0.0758;0.0909;0.1061;0.1212;0.1364;0.1515;0.1667;0.1818;0.197;0.2121;0.2273;0.2424;0.2576;0.2727;0.2879;0.303;0.3182;0.3333;0.3485;0.3636;0.3788;0.3939;0.4091;0.4242;0.4394;0.4545;0.4697;0.4848;0.5;0.5152;0.5303;0.5455;0.5606;0.5758;0.5909;0.6061;0.6212;0.6364;0.6515;0.6667;0.6818;0.697;0.7121;0.7273;0.7424;0.7576;0.7727;0.7879;0.803;0.8182;0.8333;0.8485;0.8636;0.8788;0.8939;0.9091;0.9242;0.9394;0.9545;0.9697;0.9848;1" values="572,37;594,37;616,37;616,15;638,15;660,15;682,15;704,15;726,15;748,15;770,15;792,15;814,15;836,15;858,15;880,15;902,15;924,15;946,15;968,15;990,15;1012,15;1034,15;1056,15;1078,15;1100,15;1078,15;1078,37;1100,37;1100,15;1078,15;1078,37;1100,37;1100,15;1078,15;1056,15;1034,15;1012,15;990,15;968,15;946,15;924,15;902,15;880,15;880,37;880,59;858,59;836,59;836,81;858,81;880,81;880,103;902,103;924,103;946,103;968,103;968,125;968,147;990,147;1012,147;1034,147;1056,147;1078,147;1078,125;1100,125;1111,125;1122,125" additive="replace"/><ns0:use href="#pac_ghost-blinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.0152;0.0455;0.0606;0.4394;0.4545;0.5000;0.5152;0.9545;0.9697;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.4091;0.4242;0.4697;0.4848;0.6667;0.6970;0.7273;0.7424;0.7727;0.7879;0.8485;0.8788;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.3939;0.4091;0.4545;0.4697;0.5152;0.6667;0.6970;0.7273;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0152;0.0455;0.0606;0.3939;0.4242;0.4394;0.4848;0.5000;0.7424;0.7727;0.7879;0.8485;0.8788;0.9545;0.9697;0.9848;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-scared" width="20" height="20" visibility="visible">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.9848;1.0000" values="visible;hidden;visible;visible"/>
+			</ns0:use></ns0:g>
+      <ns0:g id="pac_ghost1" transform="translate(0,0)">
+			<ns0:animateTransform attributeName="transform" type="translate" dur="13400ms" repeatCount="indefinite" keyTimes="0;0.136;0.1364;0.1663;0.1667;0.1818;0.197;0.2121;0.2273;0.2424;0.2576;0.2727;0.2879;0.303;0.3182;0.3333;0.3485;0.3636;0.3788;0.3939;0.4091;0.4242;0.4394;0.4545;0.4697;0.4848;0.5;0.5152;0.5303;0.5455;0.5606;0.5758;0.5909;0.6061;0.6212;0.6364;0.6515;0.6667;0.6818;0.697;0.7121;0.7273;0.7424;0.7576;0.7727;0.7879;0.803;0.8182;0.8333;0.8485;0.8636;0.8788;0.8939;0.9091;0.9242;0.9394;0.9545;0.9697;0.9848;1" values="550,81;550,81;572,59;572,59;572,37;594,37;616,37;638,37;660,37;682,37;682,59;682,81;682,103;704,103;726,103;726,125;748,125;770,125;792,125;814,125;836,125;858,125;880,125;902,125;924,125;946,125;968,125;946,125;924,125;902,125;880,125;858,125;836,125;814,125;792,125;770,125;748,125;748,147;726,147;726,125;748,125;770,125;792,125;814,125;836,125;858,125;880,125;902,125;924,125;946,125;968,125;968,147;990,147;1012,147;1034,147;1056,147;1056,125;1078,125;1078,114;1078,103" additive="replace"/><ns0:use href="#pac_ghost-blinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.1364;0.1515;0.1818;0.6970;0.7121;0.9545;0.9697;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.2576;0.3030;0.3333;0.3485;0.6667;0.6818;0.8788;0.8939;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.5152;0.6667;0.6818;0.6970;1.0000" values="hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.1364;0.1515;0.1818;0.2576;0.3030;0.3333;0.3485;0.5152;0.7121;0.8788;0.8939;0.9545;0.9697;0.9848;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-scared" width="20" height="20" visibility="visible">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.9848;1.0000" values="visible;hidden;visible;visible"/>
+			</ns0:use></ns0:g>
+      <ns0:g id="pac_ghost2" transform="translate(0,0)">
+			<ns0:animateTransform attributeName="transform" type="translate" dur="13400ms" repeatCount="indefinite" keyTimes="0;0.2875;0.2879;0.303;0.3182;0.3333;0.3485;0.3636;0.3788;0.3939;0.4091;0.4242;0.4394;0.4545;0.4697;0.4848;0.5;0.5152;0.5303;0.5455;0.5606;0.5758;0.5909;0.6061;0.6212;0.6364;0.6515;0.6667;0.6818;0.697;0.7121;0.7273;0.7424;0.7576;0.7727;0.7879;0.803;0.8182;0.8333;0.8485;0.8636;0.8788;0.8939;0.9091;0.9242;0.9394;0.9545;0.9697;0.9848;1" values="572,81;572,81;572,59;572,37;550,37;528,37;528,15;506,15;484,15;462,15;440,15;418,15;396,15;374,15;352,15;330,15;308,15;330,15;352,15;374,15;396,15;418,15;440,15;462,15;484,15;506,15;528,15;550,15;572,15;594,15;616,15;638,15;660,15;682,15;704,15;726,15;748,15;770,15;792,15;814,15;836,15;858,15;880,15;902,15;924,15;946,15;968,15;990,15;990,26;990,37" additive="replace"/><ns0:use href="#pac_ghost-blinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.2879;0.3182;0.3485;0.3636;1.0000" values="hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.2879;1.0000" values="hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.3182;0.3485;0.3636;0.5152;1.0000" values="hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.5152;0.9848;1.0000" values="hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-scared" width="20" height="20" visibility="visible">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.9848;1.0000" values="visible;hidden;visible;visible"/>
+			</ns0:use></ns0:g>
+      <ns0:g id="pac_ghost3" transform="translate(0,0)">
+			<ns0:animateTransform attributeName="transform" type="translate" dur="13400ms" repeatCount="indefinite" keyTimes="0;0.439;0.4394;0.4693;0.4697;0.4848;0.5;0.5152;0.5303;0.5455;0.5606;0.5758;0.5909;0.6061;0.6212;0.6364;0.6515;0.6667;0.6818;0.697;0.7121;0.7273;0.7424;0.7576;0.7727;0.7879;0.803;0.8182;0.8333;0.8485;0.8636;0.8788;0.8939;0.9091;0.9242;0.9394;0.9545;0.9697;0.9848;1" values="594,81;594,81;572,59;572,59;572,37;550,37;528,37;528,59;506,59;506,81;528,81;528,103;550,103;572,103;594,103;594,125;616,125;638,125;660,125;660,147;682,147;704,147;726,147;748,147;770,147;792,147;814,147;814,125;792,125;792,147;814,147;836,147;858,147;880,147;902,147;924,147;946,147;968,147;979,147;990,147" additive="replace"/><ns0:use href="#pac_ghost-blinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-blinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-inky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-pinky-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.4394;0.4545;0.4848;0.8182;0.8333;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.5152;0.5303;0.5455;0.5606;0.5758;0.5909;0.6364;0.6515;0.6970;0.7121;0.8485;0.8636;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.4394;0.4545;0.4848;0.5152;0.5303;0.5455;0.8333;0.8485;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-clyde-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.5606;0.5758;0.5909;0.6364;0.6515;0.6970;0.7121;0.8182;0.8636;0.9848;1.0000" values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-up" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-down" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-left" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-eyes-right" width="20" height="20" visibility="hidden">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;1.0000" values="hidden;hidden"/>
+			</ns0:use><ns0:use href="#pac_ghost-scared" width="20" height="20" visibility="visible">
+				<ns0:animate attributeName="visibility" dur="13400ms" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.9848;1.0000" values="visible;hidden;visible;visible"/>
+			</ns0:use></ns0:g>
+    </ns0:svg>
+  </ns0:g>
+</ns0:svg>
