@@ -14,7 +14,7 @@
   </defs>
 
   <!-- Grid background -->
-  <g opacity="0.12" stroke="#39ff14" stroke-width="1">
+  <g opacity="0.12" stroke="#e6edf3" stroke-width="1">
     <path d="M0 40H900 M0 80H900 M0 120H900 M0 160H900 M0 200H900 M0 240H900 M0 280H900"/>
     <path d="M40 0V320 M80 0V320 M120 0V320 M160 0V320 M200 0V320
              M240 0V320 M280 0V320 M320 0V320 M360 0V320 M400 0V320
@@ -28,7 +28,7 @@
         text-anchor="middle"
         font-family="monospace"
         font-size="20"
-        fill="#39ff14">
+        fill="#e6edf3">
     INITIALIZING PC BUILD...
   </text>
 
@@ -43,7 +43,7 @@
     <rect x="535" y="82" width="35" height="175" rx="5"
           fill="#21262d"/>
 
-    <circle cx="552" cy="103" r="4" fill="#39ff14">
+    <circle cx="552" cy="103" r="4" fill="#e6edf3">
       <animate attributeName="opacity"
                values="0;0;1;0.4;1"
                dur="7s"
@@ -54,10 +54,10 @@
   <!-- Motherboard -->
   <g opacity="0">
     <rect x="350" y="100" width="145" height="135" rx="7"
-          fill="#162b1a" stroke="#39ff14" stroke-width="2"/>
+          fill="#162b1a" stroke="#e6edf3" stroke-width="2"/>
 
     <path d="M365 115H480 M365 130H430 M365 215H475"
-          stroke="#39ff14" opacity="0.4"/>
+          stroke="#e6edf3" opacity="0.4"/>
 
     <animate attributeName="opacity"
              values="0;0;1;1;1;0"
@@ -106,10 +106,10 @@
   <!-- RAM -->
   <g opacity="0">
     <rect x="458" y="115" width="10" height="75" rx="2"
-          fill="#39ff14"/>
+          fill="#e6edf3"/>
 
     <rect x="474" y="115" width="10" height="75" rx="2"
-          fill="#39ff14"/>
+          fill="#e6edf3"/>
 
     <animate attributeName="opacity"
              values="0;0;1;1;1;0"
@@ -128,7 +128,7 @@
   <!-- GPU -->
   <g opacity="0">
     <rect x="365" y="195" width="115" height="28" rx="5"
-          fill="#21262d" stroke="#39ff14" stroke-width="2"/>
+          fill="#21262d" stroke="#e6edf3" stroke-width="2"/>
 
     <circle cx="395" cy="209" r="10"
             fill="none" stroke="#8b949e" stroke-width="2"/>
@@ -153,10 +153,10 @@
   <!-- Front fans -->
   <g opacity="0">
     <g transform="translate(552 145)">
-      <circle r="24" fill="none" stroke="#39ff14" stroke-width="3"/>
+      <circle r="24" fill="none" stroke="#e6edf3" stroke-width="3"/>
 
       <path d="M0-18L5-4L18 0L5 4L0 18L-5 4L-18 0L-5-4Z"
-            fill="#39ff14" opacity="0.7">
+            fill="#e6edf3" opacity="0.7">
 
         <animateTransform attributeName="transform"
                           type="rotate"
@@ -168,10 +168,10 @@
     </g>
 
     <g transform="translate(552 210)">
-      <circle r="24" fill="none" stroke="#39ff14" stroke-width="3"/>
+      <circle r="24" fill="none" stroke="#e6edf3" stroke-width="3"/>
 
       <path d="M0-18L5-4L18 0L5 4L0 18L-5 4L-18 0L-5-4Z"
-            fill="#39ff14" opacity="0.7">
+            fill="#e6edf3" opacity="0.7">
 
         <animateTransform attributeName="transform"
                           type="rotate"
@@ -195,7 +195,7 @@
           text-anchor="middle"
           font-family="monospace"
           font-size="18"
-          fill="#39ff14"
+          fill="#e6edf3"
           opacity="0">
       BUILD COMPLETE // SYSTEM ONLINE
 
