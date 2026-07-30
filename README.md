@@ -9,6 +9,16 @@
 
 </div>
 
+<h2 align="center">About Me</h2>
+
+<div align="center">
+
+```bash
+> Electrical & Electronics Engineering Student
+> PC Building Enthusiast
+> Exploring Game Development & Gaming
+> Web Developer & Programmer
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/guymalul/guymalul/output/pacman-contribution-graph-dark.svg" alt="Pacman contribution graph">
