@@ -11,7 +11,7 @@
   <img
     src="./assets/pc-build-animation.svg"
     alt="Animated custom PC build"
-    width="1000"
+    width="1100"
   />
 </p>
 
