@@ -14,7 +14,7 @@
         y2="0"
         stroke="#2d2d2d"/>
 
-  <text x="232.5"
+  <text x="275"
         y="20"
         text-anchor="middle"
         font-family="Cascadia Code, Consolas, Courier New, monospace"
@@ -24,7 +24,7 @@
     » Email
   </text>
 
-  <text x="232.5"
+  <text x="275"
         y="37"
         text-anchor="middle"
         font-family="Cascadia Code, Consolas, Courier New, monospace"
