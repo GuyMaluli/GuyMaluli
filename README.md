@@ -9,7 +9,7 @@
 
 <p align="center">
   <img
-    src="./assets/pc-build-animation.svg"
+    src="./assets/pc-build-animation.svgv"
     alt="Animated custom PC build"
     width="1100"
   />
