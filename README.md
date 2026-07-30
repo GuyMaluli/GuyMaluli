@@ -8,9 +8,11 @@
 />
 
 <p align="center">
-  <img src="./assets/pc-build-animation.svg"
-       alt="Animated PC Build"
-       width="900">
+  <img
+    src="./assets/pc-build-animation.svg?v=3"
+    alt="Animated custom PC build"
+    width="1000"
+  />
 </p>
 
 <p align="center">
