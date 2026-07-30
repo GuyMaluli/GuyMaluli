@@ -1,209 +1,896 @@
-<svg width="900" height="320" viewBox="0 0 900 320"
-     xmlns="http://www.w3.org/2000/svg">
-
-  <rect width="900" height="320" rx="18" fill="#0d1117"/>
-
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="430"
+  viewBox="0 0 1000 430"
+  role="img"
+  aria-label="Animated gaming PC assembling itself"
+>
   <defs>
-    <filter id="greenGlow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <!-- White glow -->
+    <filter id="whiteGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Soft shadow -->
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow
+        dx="0"
+        dy="5"
+        stdDeviation="5"
+        flood-color="#000000"
+        flood-opacity="0.65"
+      />
+    </filter>
+
+    <!-- Glass gradient -->
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <!-- Case gradient -->
+    <linearGradient id="caseBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#24292f"/>
+      <stop offset="55%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- Metal gradient -->
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8c959f"/>
+      <stop offset="45%" stop-color="#f0f6fc"/>
+      <stop offset="100%" stop-color="#6e7681"/>
+    </linearGradient>
+
+    <!-- GPU gradient -->
+    <linearGradient id="gpuBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="55%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- Fan blade -->
+    <path
+      id="fanBlade"
+      d="M0,-31
+         C12,-31 22,-23 22,-12
+         C22,-2 14,3 4,5
+         C9,-6 8,-18 0,-31Z"
+    />
+
+    <!-- Small fan blade -->
+    <path
+      id="smallFanBlade"
+      d="M0,-18
+         C8,-18 13,-13 13,-7
+         C13,-1 8,2 2,3
+         C5,-4 5,-11 0,-18Z"
+    />
   </defs>
 
-  <!-- Grid background -->
-  <g opacity="0.12" stroke="#e6edf3" stroke-width="1">
-    <path d="M0 40H900 M0 80H900 M0 120H900 M0 160H900 M0 200H900 M0 240H900 M0 280H900"/>
-    <path d="M40 0V320 M80 0V320 M120 0V320 M160 0V320 M200 0V320
-             M240 0V320 M280 0V320 M320 0V320 M360 0V320 M400 0V320
-             M440 0V320 M480 0V320 M520 0V320 M560 0V320 M600 0V320
-             M640 0V320 M680 0V320 M720 0V320 M760 0V320 M800 0V320
-             M840 0V320 M880 0V320"/>
+  <!-- Background -->
+  <rect width="1000" height="430" rx="22" fill="#0d1117"/>
+
+  <!-- Background grid -->
+  <g stroke="#ffffff" stroke-width="1" opacity="0.045">
+    <path d="M0 50H1000 M0 100H1000 M0 150H1000 M0 200H1000
+             M0 250H1000 M0 300H1000 M0 350H1000 M0 400H1000"/>
+    <path d="M50 0V430 M100 0V430 M150 0V430 M200 0V430
+             M250 0V430 M300 0V430 M350 0V430 M400 0V430
+             M450 0V430 M500 0V430 M550 0V430 M600 0V430
+             M650 0V430 M700 0V430 M750 0V430 M800 0V430
+             M850 0V430 M900 0V430 M950 0V430"/>
   </g>
 
-  <!-- Title -->
-  <text x="450" y="38"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="20"
-        fill="#e6edf3">
-    INITIALIZING PC BUILD...
-  </text>
+  <!-- Scan line -->
+  <rect x="0" y="0" width="1000" height="2" fill="#ffffff" opacity="0">
+    <animate
+      attributeName="y"
+      values="25;405"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="opacity"
+      values="0;0.13;0"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </rect>
 
-  <!-- PC case -->
+  <!-- Header -->
+  <g font-family="'Courier New', monospace">
+    <text
+      x="48"
+      y="45"
+      fill="#e6edf3"
+      font-size="15"
+      letter-spacing="2"
+    >
+      MALULI // CUSTOM BUILD SYSTEM
+    </text>
+
+    <text
+      x="952"
+      y="45"
+      text-anchor="end"
+      fill="#8c959f"
+      font-size="13"
+    >
+      BUILD_SEQUENCE.EXE
+    </text>
+
+    <line
+      x1="48"
+      y1="60"
+      x2="952"
+      y2="60"
+      stroke="#30363d"
+      stroke-width="1"
+    />
+  </g>
+
+  <!-- Floor shadow -->
+  <ellipse
+    cx="500"
+    cy="375"
+    rx="260"
+    ry="22"
+    fill="#000000"
+    opacity="0.55"
+  />
+
+  <!-- ========================================= -->
+  <!-- PC CASE -->
+  <!-- ========================================= -->
+
+  <g filter="url(#shadow)">
+    <!-- Rear depth -->
+    <path
+      d="M375 91 L405 72 H700 L730 91 V350 L700 370 H375Z"
+      fill="#090c10"
+      stroke="#484f58"
+      stroke-width="2"
+    />
+
+    <!-- Main case -->
+    <rect
+      x="315"
+      y="90"
+      width="385"
+      height="280"
+      rx="11"
+      fill="url(#caseBody)"
+      stroke="#8c959f"
+      stroke-width="2.5"
+    />
+
+    <!-- Front panel -->
+    <path
+      d="M650 90 H700 V370 H650Z"
+      fill="#161b22"
+      stroke="#484f58"
+      stroke-width="1.5"
+    />
+
+    <!-- Side glass -->
+    <rect
+      x="332"
+      y="106"
+      width="300"
+      height="245"
+      rx="7"
+      fill="url(#glass)"
+      stroke="#6e7681"
+      stroke-width="1.5"
+    />
+
+    <!-- Glass corners -->
+    <g fill="#8c959f">
+      <circle cx="344" cy="118" r="3"/>
+      <circle cx="620" cy="118" r="3"/>
+      <circle cx="344" cy="339" r="3"/>
+      <circle cx="620" cy="339" r="3"/>
+    </g>
+
+    <!-- PSU shroud -->
+    <path
+      d="M333 301 H632 V351 H333Z"
+      fill="#161b22"
+      stroke="#30363d"
+      stroke-width="1.5"
+    />
+
+    <text
+      x="352"
+      y="332"
+      font-family="'Courier New', monospace"
+      font-size="12"
+      letter-spacing="2"
+      fill="#6e7681"
+    >
+      POWER SUPPLY
+    </text>
+
+    <!-- Case feet -->
+    <rect x="345" y="369" width="48" height="8" rx="3" fill="#30363d"/>
+    <rect x="620" y="369" width="48" height="8" rx="3" fill="#30363d"/>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- MOTHERBOARD -->
+  <!-- ========================================= -->
+
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;1"
+      keyTimes="0;0.06;0.14;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="-360 0;-360 0;0 0;0 0;0 0"
+      keyTimes="0;0.06;0.14;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <!-- Board -->
+    <rect
+      x="360"
+      y="125"
+      width="205"
+      height="165"
+      rx="6"
+      fill="#1f242b"
+      stroke="#e6edf3"
+      stroke-width="2"
+    />
+
+    <!-- PCB traces -->
+    <g
+      fill="none"
+      stroke="#8c959f"
+      stroke-width="1"
+      opacity="0.55"
+    >
+      <path d="M375 142 H430 V158 H470"/>
+      <path d="M375 270 H425 V250 H470"/>
+      <path d="M540 145 H515 V175 H485"/>
+      <path d="M545 260 H520 V235 H490"/>
+      <path d="M380 220 H410 V205 H445"/>
+      <path d="M505 280 V260 H545"/>
+      <path d="M390 155 V190 H410"/>
+      <path d="M525 200 H548 V225"/>
+    </g>
+
+    <!-- Decorative chips -->
+    <g fill="#30363d" stroke="#6e7681" stroke-width="1">
+      <rect x="375" y="150" width="32" height="23" rx="3"/>
+      <rect x="500" y="250" width="42" height="23" rx="3"/>
+      <rect x="375" y="240" width="28" height="30" rx="3"/>
+      <rect x="520" y="135" width="28" height="23" rx="3"/>
+    </g>
+
+    <!-- PCI slots -->
+    <g fill="#0d1117" stroke="#8c959f" stroke-width="1">
+      <rect x="385" y="258" width="148" height="7" rx="2"/>
+      <rect x="385" y="272" width="125" height="6" rx="2"/>
+    </g>
+
+    <!-- IO shield -->
+    <rect
+      x="349"
+      y="137"
+      width="14"
+      height="70"
+      rx="2"
+      fill="#6e7681"
+    />
+
+    <text
+      x="462"
+      y="282"
+      text-anchor="middle"
+      font-family="'Courier New', monospace"
+      font-size="9"
+      letter-spacing="2"
+      fill="#8c959f"
+    >
+      MALULI B650
+    </text>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- CPU -->
+  <!-- ========================================= -->
+
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;1"
+      keyTimes="0;0.17;0.23;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 -220;0 -220;0 0;0 0;0 0"
+      keyTimes="0;0.17;0.23;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <rect
+      x="430"
+      y="173"
+      width="60"
+      height="60"
+      rx="5"
+      fill="url(#metal)"
+      stroke="#f0f6fc"
+      stroke-width="2"
+    />
+
+    <rect
+      x="439"
+      y="182"
+      width="42"
+      height="42"
+      rx="3"
+      fill="#30363d"
+      stroke="#8c959f"
+    />
+
+    <text
+      x="460"
+      y="200"
+      text-anchor="middle"
+      font-family="'Courier New', monospace"
+      font-size="8"
+      fill="#f0f6fc"
+    >
+      RYZEN
+    </text>
+
+    <text
+      x="460"
+      y="213"
+      text-anchor="middle"
+      font-family="'Courier New', monospace"
+      font-size="7"
+      fill="#8c959f"
+    >
+      X3D
+    </text>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- RAM -->
+  <!-- ========================================= -->
+
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;1"
+      keyTimes="0;0.27;0.34;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 -220;0 -220;0 0;0 0;0 0"
+      keyTimes="0;0.27;0.34;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <!-- RAM stick 1 -->
+    <g>
+      <rect
+        x="502"
+        y="163"
+        width="13"
+        height="78"
+        rx="3"
+        fill="#161b22"
+        stroke="#e6edf3"
+        stroke-width="1.5"
+      />
+      <rect x="505" y="171" width="7" height="58" rx="2" fill="#484f58"/>
+      <line
+        x1="508.5"
+        y1="167"
+        x2="508.5"
+        y2="237"
+        stroke="#f0f6fc"
+        stroke-width="1"
+      />
+    </g>
+
+    <!-- RAM stick 2 -->
+    <g>
+      <rect
+        x="521"
+        y="163"
+        width="13"
+        height="78"
+        rx="3"
+        fill="#161b22"
+        stroke="#e6edf3"
+        stroke-width="1.5"
+      />
+      <rect x="524" y="171" width="7" height="58" rx="2" fill="#484f58"/>
+      <line
+        x1="527.5"
+        y1="167"
+        x2="527.5"
+        y2="237"
+        stroke="#f0f6fc"
+        stroke-width="1"
+      />
+    </g>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- CPU LIQUID COOLER -->
+  <!-- ========================================= -->
+
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;1"
+      keyTimes="0;0.38;0.45;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="-300 0;-300 0;0 0;0 0;0 0"
+      keyTimes="0;0.38;0.45;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <!-- Pump -->
+    <circle
+      cx="460"
+      cy="203"
+      r="32"
+      fill="#11161c"
+      stroke="#e6edf3"
+      stroke-width="2"
+    />
+
+    <circle
+      cx="460"
+      cy="203"
+      r="23"
+      fill="#21262d"
+      stroke="#6e7681"
+      stroke-width="1.5"
+    />
+
+    <path
+      d="M449 204 L457 212 L473 192"
+      fill="none"
+      stroke="#f0f6fc"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Cooling tubes -->
+    <path
+      d="M482 184 C520 140 565 120 596 134"
+      fill="none"
+      stroke="#484f58"
+      stroke-width="7"
+      stroke-linecap="round"
+    />
+
+    <path
+      d="M483 221 C530 235 568 218 599 195"
+      fill="none"
+      stroke="#30363d"
+      stroke-width="7"
+      stroke-linecap="round"
+    />
+
+    <!-- Radiator -->
+    <rect
+      x="585"
+      y="120"
+      width="35"
+      height="110"
+      rx="4"
+      fill="#161b22"
+      stroke="#8c959f"
+      stroke-width="1.5"
+    />
+
+    <g stroke="#484f58">
+      <line x1="591" y1="128" x2="591" y2="222"/>
+      <line x1="598" y1="128" x2="598" y2="222"/>
+      <line x1="605" y1="128" x2="605" y2="222"/>
+      <line x1="612" y1="128" x2="612" y2="222"/>
+    </g>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- GPU -->
+  <!-- ========================================= -->
+
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;1"
+      keyTimes="0;0.49;0.57;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="440 0;440 0;0 0;0 0;0 0"
+      keyTimes="0;0.49;0.57;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <!-- GPU body -->
+    <path
+      d="M375 245
+         H570
+         L585 257
+         V295
+         H375
+         Z"
+      fill="url(#gpuBody)"
+      stroke="#e6edf3"
+      stroke-width="2"
+    />
+
+    <!-- Backplate detail -->
+    <path
+      d="M386 252 H559 L572 262"
+      fill="none"
+      stroke="#6e7681"
+      stroke-width="1"
+    />
+
+    <!-- Fan one -->
+    <g transform="translate(425 270)">
+      <circle r="25" fill="#0d1117" stroke="#8c959f" stroke-width="2"/>
+      <g fill="#8c959f">
+        <use href="#smallFanBlade"/>
+        <use href="#smallFanBlade" transform="rotate(60)"/>
+        <use href="#smallFanBlade" transform="rotate(120)"/>
+        <use href="#smallFanBlade" transform="rotate(180)"/>
+        <use href="#smallFanBlade" transform="rotate(240)"/>
+        <use href="#smallFanBlade" transform="rotate(300)"/>
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0"
+          to="360"
+          dur="1.1s"
+          begin="5.7s"
+          repeatCount="indefinite"
+        />
+      </g>
+      <circle r="6" fill="#e6edf3"/>
+    </g>
+
+    <!-- Fan two -->
+    <g transform="translate(495 270)">
+      <circle r="25" fill="#0d1117" stroke="#8c959f" stroke-width="2"/>
+      <g fill="#8c959f">
+        <use href="#smallFanBlade"/>
+        <use href="#smallFanBlade" transform="rotate(60)"/>
+        <use href="#smallFanBlade" transform="rotate(120)"/>
+        <use href="#smallFanBlade" transform="rotate(180)"/>
+        <use href="#smallFanBlade" transform="rotate(240)"/>
+        <use href="#smallFanBlade" transform="rotate(300)"/>
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="360"
+          to="0"
+          dur="1.1s"
+          begin="5.7s"
+          repeatCount="indefinite"
+        />
+      </g>
+      <circle r="6" fill="#e6edf3"/>
+    </g>
+
+    <text
+      x="556"
+      y="274"
+      text-anchor="middle"
+      font-family="'Courier New', monospace"
+      font-size="9"
+      fill="#f0f6fc"
+      transform="rotate(-90 556 274)"
+    >
+      RTX
+    </text>
+
+    <!-- GPU power cable -->
+    <path
+      d="M555 247 C590 235 605 255 605 280"
+      fill="none"
+      stroke="#6e7681"
+      stroke-width="4"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <!-- ========================================= -->
+  <!-- FRONT FANS -->
+  <!-- ========================================= -->
+
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;1"
+      keyTimes="0;0.61;0.68;0.94;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+
+    <!-- Top fan -->
+    <g transform="translate(675 165)">
+      <circle
+        r="42"
+        fill="#0d1117"
+        stroke="#8c959f"
+        stroke-width="2"
+      />
+
+      <circle
+        r="35"
+        fill="none"
+        stroke="#e6edf3"
+        stroke-width="1.5"
+        opacity="0.75"
+      />
+
+      <g fill="#6e7681">
+        <use href="#fanBlade"/>
+        <use href="#fanBlade" transform="rotate(60)"/>
+        <use href="#fanBlade" transform="rotate(120)"/>
+        <use href="#fanBlade" transform="rotate(180)"/>
+        <use href="#fanBlade" transform="rotate(240)"/>
+        <use href="#fanBlade" transform="rotate(300)"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0"
+          to="360"
+          dur="1.6s"
+          begin="6.8s"
+          repeatCount="indefinite"
+        />
+      </g>
+
+      <circle r="9" fill="#e6edf3"/>
+      <circle r="4" fill="#30363d"/>
+    </g>
+
+    <!-- Bottom fan -->
+    <g transform="translate(675 270)">
+      <circle
+        r="42"
+        fill="#0d1117"
+        stroke="#8c959f"
+        stroke-width="2"
+      />
+
+      <circle
+        r="35"
+        fill="none"
+        stroke="#e6edf3"
+        stroke-width="1.5"
+        opacity="0.75"
+      />
+
+      <g fill="#6e7681">
+        <use href="#fanBlade"/>
+        <use href="#fanBlade" transform="rotate(60)"/>
+        <use href="#fanBlade" transform="rotate(120)"/>
+        <use href="#fanBlade" transform="rotate(180)"/>
+        <use href="#fanBlade" transform="rotate(240)"/>
+        <use href="#fanBlade" transform="rotate(300)"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="360"
+          to="0"
+          dur="1.6s"
+          begin="6.8s"
+          repeatCount="indefinite"
+        />
+      </g>
+
+      <circle r="9" fill="#e6edf3"/>
+      <circle r="4" fill="#30363d"/>
+    </g>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- POWER BUTTON -->
+  <!-- ========================================= -->
+
   <g>
-    <rect x="315" y="65" width="270" height="210" rx="12"
-          fill="#161b22" stroke="#8b949e" stroke-width="3"/>
+    <circle
+      cx="675"
+      cy="112"
+      r="8"
+      fill="#0d1117"
+      stroke="#8c959f"
+      stroke-width="1.5"
+    />
 
-    <rect x="330" y="80" width="190" height="180" rx="8"
-          fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+    <path
+      d="M675 106 V112 M671 108 A6 6 0 1 0 679 108"
+      fill="none"
+      stroke="#e6edf3"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
 
-    <rect x="535" y="82" width="35" height="175" rx="5"
-          fill="#21262d"/>
-
-    <circle cx="552" cy="103" r="4" fill="#e6edf3">
-      <animate attributeName="opacity"
-               values="0;0;1;0.4;1"
-               dur="7s"
-               repeatCount="indefinite"/>
+    <circle
+      cx="675"
+      cy="112"
+      r="12"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="2"
+      opacity="0"
+      filter="url(#whiteGlow)"
+    >
+      <animate
+        attributeName="opacity"
+        values="0;0;1;0.35;1;0.5"
+        keyTimes="0;0.69;0.73;0.78;0.84;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
     </circle>
   </g>
 
-  <!-- Motherboard -->
-  <g opacity="0">
-    <rect x="350" y="100" width="145" height="135" rx="7"
-          fill="#161b22" stroke="#e6edf3" stroke-width="2"/>
+  <!-- ========================================= -->
+  <!-- FINAL LIGHTING -->
+  <!-- ========================================= -->
 
-    <path d="M365 115H480 M365 130H430 M365 215H475"
-          stroke="#e6edf3" opacity="0.4"/>
+  <rect
+    x="336"
+    y="110"
+    width="292"
+    height="237"
+    rx="6"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="2"
+    opacity="0"
+    filter="url(#whiteGlow)"
+  >
+    <animate
+      attributeName="opacity"
+      values="0;0;0.55;0.18;0.35"
+      keyTimes="0;0.72;0.78;0.84;1"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+  </rect>
 
-    <animate attributeName="opacity"
-             values="0;0;1;1;1;0"
-             keyTimes="0;0.08;0.16;0.82;0.94;1"
-             dur="7s"
-             repeatCount="indefinite"/>
+  <!-- ========================================= -->
+  <!-- STATUS PANEL -->
+  <!-- ========================================= -->
 
-    <animateTransform attributeName="transform"
-                      type="translate"
-                      values="-220 0;-220 0;0 0;0 0;0 0;-220 0"
-                      keyTimes="0;0.08;0.16;0.82;0.94;1"
-                      dur="7s"
-                      repeatCount="indefinite"/>
-  </g>
-
-  <!-- CPU -->
-  <g opacity="0">
-    <rect x="397" y="135" width="48" height="48" rx="5"
-          fill="#d0d7de" stroke="#ffffff" stroke-width="2"/>
-
-    <rect x="406" y="144" width="30" height="30" rx="3"
-          fill="#6e7681"/>
-
-    <text x="421" y="164"
-          text-anchor="middle"
-          font-family="monospace"
-          font-size="8"
-          fill="#ffffff">
-      CPU
+  <g font-family="'Courier New', monospace">
+    <text
+      x="48"
+      y="394"
+      fill="#6e7681"
+      font-size="13"
+    >
+      STATUS:
     </text>
 
-    <animate attributeName="opacity"
-             values="0;0;1;1;1;0"
-             keyTimes="0;0.2;0.28;0.82;0.94;1"
-             dur="7s"
-             repeatCount="indefinite"/>
+    <text
+      x="113"
+      y="394"
+      fill="#8c959f"
+      font-size="13"
+    >
+      ASSEMBLING COMPONENTS
+      <animate
+        attributeName="opacity"
+        values="1;1;0;0;0"
+        keyTimes="0;0.68;0.71;0.95;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </text>
 
-    <animateTransform attributeName="transform"
-                      type="translate"
-                      values="0 -150;0 -150;0 0;0 0;0 0;0 -150"
-                      keyTimes="0;0.2;0.28;0.82;0.94;1"
-                      dur="7s"
-                      repeatCount="indefinite"/>
-  </g>
-
-  <!-- RAM -->
-  <g opacity="0">
-    <rect x="458" y="115" width="10" height="75" rx="2"
-          fill="#e6edf3"/>
-
-    <rect x="474" y="115" width="10" height="75" rx="2"
-          fill="#e6edf3"/>
-
-    <animate attributeName="opacity"
-             values="0;0;1;1;1;0"
-             keyTimes="0;0.32;0.4;0.82;0.94;1"
-             dur="7s"
-             repeatCount="indefinite"/>
-
-    <animateTransform attributeName="transform"
-                      type="translate"
-                      values="0 -150;0 -150;0 0;0 0;0 0;0 -150"
-                      keyTimes="0;0.32;0.4;0.82;0.94;1"
-                      dur="7s"
-                      repeatCount="indefinite"/>
-  </g>
-
-  <!-- GPU -->
-  <g opacity="0">
-    <rect x="365" y="195" width="115" height="28" rx="5"
-          fill="#21262d" stroke="#e6edf3" stroke-width="2"/>
-
-    <circle cx="395" cy="209" r="10"
-            fill="none" stroke="#8b949e" stroke-width="2"/>
-
-    <circle cx="450" cy="209" r="10"
-            fill="none" stroke="#8b949e" stroke-width="2"/>
-
-    <animate attributeName="opacity"
-             values="0;0;1;1;1;0"
-             keyTimes="0;0.44;0.54;0.82;0.94;1"
-             dur="7s"
-             repeatCount="indefinite"/>
-
-    <animateTransform attributeName="transform"
-                      type="translate"
-                      values="280 0;280 0;0 0;0 0;0 0;280 0"
-                      keyTimes="0;0.44;0.54;0.82;0.94;1"
-                      dur="7s"
-                      repeatCount="indefinite"/>
-  </g>
-
-  <!-- Front fans -->
-  <g opacity="0">
-    <g transform="translate(552 145)">
-      <circle r="24" fill="none" stroke="#e6edf3" stroke-width="3"/>
-
-      <path d="M0-18L5-4L18 0L5 4L0 18L-5 4L-18 0L-5-4Z"
-            fill="#e6edf3" opacity="0.7">
-
-        <animateTransform attributeName="transform"
-                          type="rotate"
-                          from="0"
-                          to="360"
-                          dur="1.2s"
-                          repeatCount="indefinite"/>
-      </path>
-    </g>
-
-    <g transform="translate(552 210)">
-      <circle r="24" fill="none" stroke="#e6edf3" stroke-width="3"/>
-
-      <path d="M0-18L5-4L18 0L5 4L0 18L-5 4L-18 0L-5-4Z"
-            fill="#e6edf3" opacity="0.7">
-
-        <animateTransform attributeName="transform"
-                          type="rotate"
-                          from="360"
-                          to="0"
-                          dur="1.2s"
-                          repeatCount="indefinite"/>
-      </path>
-    </g>
-
-    <animate attributeName="opacity"
-             values="0;0;1;1;1;0"
-             keyTimes="0;0.58;0.68;0.82;0.94;1"
-             dur="7s"
-             repeatCount="indefinite"/>
-  </g>
-
-  <!-- Status -->
-  <g filter="url(#greenGlow)">
-    <text x="450" y="305"
-          text-anchor="middle"
-          font-family="monospace"
-          font-size="18"
-          fill="#e6edf3"
-          opacity="0">
+    <text
+      x="113"
+      y="394"
+      fill="#f0f6fc"
+      font-size="13"
+      letter-spacing="1.5"
+      opacity="0"
+      filter="url(#whiteGlow)"
+    >
       BUILD COMPLETE // SYSTEM ONLINE
-
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.68;0.76;0.92;1"
-               dur="7s"
-               repeatCount="indefinite"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0.7"
+        keyTimes="0;0.71;0.77;0.95;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
     </text>
+
+    <!-- Progress bar outline -->
+    <rect
+      x="690"
+      y="383"
+      width="262"
+      height="13"
+      rx="6"
+      fill="#161b22"
+      stroke="#484f58"
+    />
+
+    <!-- Progress bar -->
+    <rect
+      x="693"
+      y="386"
+      width="0"
+      height="7"
+      rx="3.5"
+      fill="#e6edf3"
+    >
+      <animate
+        attributeName="width"
+        values="0;0;42;80;120;165;210;256;256"
+        keyTimes="0;0.05;0.14;0.23;0.34;0.45;0.57;0.72;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </g>
+
+  <!-- Corner labels -->
+  <g
+    font-family="'Courier New', monospace"
+    font-size="10"
+    fill="#484f58"
+  >
+    <text x="48" y="82">01 / HARDWARE INITIALIZATION</text>
+    <text x="952" y="82" text-anchor="end">WHITE EDITION</text>
   </g>
 </svg>
