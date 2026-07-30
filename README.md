@@ -1,10 +1,26 @@
 
 <p align="center">
   <img
-    src="./assets/windows-terminal-profile.svg"
-    alt="Guy Malul Windows Terminal"
+    src="./assets/windows-terminal-profile-v2.svg"
+    alt="Guy Malul Windows Terminal Profile"
     width="2000"
   />
+</p>
+
+<p align="center">
+  <a href="mailto:gaimalul1515@gmail.com">
+    <img
+      src="https://img.shields.io/badge/Email-gaimalul1515%40gmail.com-00ff2a?style=for-the-badge&logo=gmail&logoColor=black"
+      alt="Email"
+    />
+  </a>
+
+  <a href="https://github.com/guymalul">
+    <img
+      src="https://img.shields.io/badge/GitHub-guymalul-00ff2a?style=for-the-badge&logo=github&logoColor=black"
+      alt="GitHub"
+    />
+  </a>
 </p>
 
 <p align="center">
