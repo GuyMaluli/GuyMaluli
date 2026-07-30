@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="./assets/windows-terminal.svg"
+    src="./assets/windows-terminal-profile.svg"
     alt="Guy Malul Windows Terminal"
     width="930"
   />
