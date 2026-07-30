@@ -9,6 +9,14 @@
 
 <p align="center">
   <img
+    src="./assets/windows-terminal-profile-v2.svg?v=2"
+    alt="Guy Malul Windows Terminal"
+    width="1100"
+  />
+</p>
+
+<p align="center">
+  <img
     src="./assets/pc-build-animation.svg"
     alt="Animated custom PC build"
     width="1100"
