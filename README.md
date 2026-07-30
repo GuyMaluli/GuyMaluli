@@ -8,3 +8,9 @@
 />
 
 </div>
+
+## Pac-Man Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/guymalul/guymalul/output/pacman-contribution-graph-dark.svg" alt="Pacman contribution graph">
+</p>
