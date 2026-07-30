@@ -9,7 +9,7 @@
 
 <p align="center">
   <img
-    src="./assets/windows-terminal-profile-v2.svg?v=2"
+    src="./assets/windows-terminal-profile.svg"
     alt="Guy Malul Windows Terminal"
     width="1100"
   />
