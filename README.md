@@ -1,7 +1,7 @@
 
 <p align="center">
   <img
-    src="./assets/windows-terminal-profile-v2.svg"
+    src="./assets/windows-terminal-profile.svg"
     alt="Guy Malul Windows Terminal Profile"
     width="2000"
   />
@@ -15,7 +15,7 @@
     />
   </a>
 
-  <a href="https://github.com/guymalul">
+  <a href="https://github.com/GuyMaluli">
     <img
       src="https://img.shields.io/badge/GitHub-guymalul-00ff2a?style=for-the-badge&logo=github&logoColor=black"
       alt="GitHub"
