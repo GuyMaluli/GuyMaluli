@@ -9,15 +9,18 @@
 
 </div>
 
-<h2 align="center">About Me</h2>
+## 👨‍💻 About Me
 
-<div align="center">
+<p align="center">
+  🎓 Electrical & Electronics Engineering Student<br>
+  🖥️ PC Building Enthusiast<br>
+  🎮 Exploring Game Development & Gaming<br>
+  💻 Web Developer & Programmer
+</p>
 
-```bash
-> Electrical & Electronics Engineering Student
-> PC Building Enthusiast
-> Exploring Game Development & Gaming
-> Web Developer & Programmer
+<p align="center">
+  <img src="https://raw.githubusercontent.com/guymalul/guymalul/output/pacman-contribution-graph-dark.svg" alt="Pacman Contribution Graph">
+</p>
 
 
 <p align="center">
