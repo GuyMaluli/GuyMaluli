@@ -220,15 +220,6 @@
     </rect>
   </g>
 
-  <!-- Contact bar -->
-  <line x1="45" y1="515" x2="1055" y2="515"
-        stroke="#363636" stroke-width="1"/>
-
-  <rect x="45" y="515" width="1010" height="45"
-        fill="#111111"/>
-
-  <line x1="550" y1="515" x2="550" y2="560"
-        stroke="#2f2f2f"/>
 
      </svg>
 
