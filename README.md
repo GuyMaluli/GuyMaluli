@@ -1,11 +1,3 @@
-<div align="center">
-
-# Guy Malul
-
-<img
-  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=FFFFFF&center=true&vCenter=true&width=800&lines=Electrical+%26+Electronics+Engineering+Student;Web+Developer+%26+Programmer;PC+Building+Enthusiast;Exploring+Game+Development+%26+Gaming"
-  alt="Typing SVG"
-/>
 
 <p align="center">
   <img
