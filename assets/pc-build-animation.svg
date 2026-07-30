@@ -6,10 +6,10 @@
      aria-label="Animated realistic custom PC assembly with liquid cooling">
 
   <defs>
-    <linearGradient id="bg">
-    <stop offset="0%" stop-color="#161b22"/>
-    <stop offset="100%" stop-color="#161b22"/>
-   </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
 
     <linearGradient id="caseMetal" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1b1b1b"/>
@@ -56,10 +56,10 @@
   </defs>
 
   <!-- Background -->
-  <rect width="1100" height="520" rx="24" fill="url(#bg)"/>
+  <rect width="1100" height="520" fill="url(#bg)"/>
 
   <!-- Hacker grid -->
-  <g stroke="#ffffff" stroke-width="1" opacity="0.035">
+  <g stroke="#30363d" stroke-width="1" opacity="0.18">
     <path d="M0 40H1100 M0 80H1100 M0 120H1100 M0 160H1100
              M0 200H1100 M0 240H1100 M0 280H1100 M0 320H1100
              M0 360H1100 M0 400H1100 M0 440H1100 M0 480H1100"/>
@@ -85,7 +85,7 @@
   </g>
 
   <ellipse cx="550" cy="447" rx="300" ry="28"
-           fill="#000000" opacity="0.65"/>
+           fill="#000000" opacity="0.28"/>
 
   <!-- Case -->
   <g filter="url(#shadow)">
