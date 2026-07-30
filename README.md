@@ -3,7 +3,7 @@
   <img
     src="./assets/windows-terminal-profile.svg"
     alt="Guy Malul Windows Terminal"
-    width="1100"
+    width="2000"
   />
 </p>
 
