@@ -9,6 +9,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "assets/maluliterminal.svg"
 
 jobs:
   generate:
@@ -17,15 +19,31 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Generate Pac-Man
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: GuyMaluli
 
-      - name: Push generated files
+      - name: Insert updated Pac-Man into terminal
+        run: python scripts/inject_pacman.py
+
+      - name: Commit updated terminal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/maluliterminal.svg
+          git diff --cached --quiet || git commit -m "Update Pac-Man inside terminal"
+          git push
+
+      - name: Push generated Pac-Man files to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
