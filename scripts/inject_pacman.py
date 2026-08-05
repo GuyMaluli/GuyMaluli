@@ -25,8 +25,7 @@ def main() -> None:
 
     terminal = TERMINAL_PATH.read_text(encoding="utf-8")
     pacman = PACMAN_PATH.read_text(encoding="utf-8")
-
-    # הסרת שורת XML מהפקמן כדי שאפשר יהיה להטמיע אותו בתוך SVG אחר
+ 
     pacman = re.sub(
         r"^\s*<\?xml[^>]*\?>\s*",
         "",
@@ -56,7 +55,6 @@ def main() -> None:
         else "0 0 1166 184"
     )
 
-    # מוצא את אזור הפקמן הקיים בתוך הטרמינל
     anchor_position = terminal.find("run pacman.exe")
 
     if anchor_position == -1:
@@ -81,7 +79,6 @@ def main() -> None:
 
     old_opening_tag = opening_tag_match.group(0)
 
-    # מוצא את תגית הסגירה המתאימה גם כשיש SVG פנימיים
     svg_tags = re.finditer(
         r"</?svg\b[^>]*>",
         terminal,
@@ -111,7 +108,6 @@ def main() -> None:
             "Could not locate the end of the old Pac-Man SVG"
         )
 
-    # שומר על המיקום והגודל של הפקמן הישן בתוך הטרמינל
     x = get_attribute(old_opening_tag, "x", "55")
     y = get_attribute(old_opening_tag, "y", "1250")
     width = get_attribute(old_opening_tag, "width", "990")
